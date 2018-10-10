@@ -1,3 +1,453 @@
 <resources>
     <string name="app_name">TourGuide</string>
+    <!-- The string values for "Architecture" section -->
+
+    <string name="chijmes_title">CHIJMES</string>
+    <string name="chijmes_content">Now home to an array of shops, bars and restaurants, CHIJMES used to be a Catholic convent school way back in the 1800s. The compound houses several buildings of varying architectural styles and set up during different points in history, such as an orphanage, a dormitory and a Gothic Chapel.
+
+The complex was renamed CHIJMES in 1990, a reference to the convent’s acronym and the sound of its tower bells. After redevelopment work, CHIJMES has grown into the well-loved dining and nightlife enclave that it is today.
+
+CHIJMES. 30 Victoria Street, Singapore 18796. 
+Daily 9.30am-6.30pm. Opening hours vary for individual businesses.</string>
+    <string name="esplanade_title">Esplanade – Theatres on the Bay</string>
+    <string name="esplanade_content">Originally named after its neighbouring Esplanade Park, one of the oldest public parks in Singapore, the iconic 60,000-square-metre Performing Arts centre is affectionately dubbed ‘The Durian’ by locals due to its spiky architectural exterior. Having been in the works since the 1970s, the Esplanade was set up as a hub where Singaporeans can engage with and be inspired by the local arts and culture scene.
+
+Since opening its doors in 2002, the Esplanade has revolutionised the Arts in Singapore and grown into a bustling hub for shopping, dining and entertainment. The venue showcases a range of performances all year round, from free shows held by the bay, to yearly festivals such as Baybeats, da:ns festival, Huayi – Chinese Festival of Arts, and many more.
+
+Esplanade – Theatres on the Bay. 1 Esplanade Drive, Singapore 038981.
+Information counter opens daily noon-8.30pm.</string>
+    <string name="merlion_title">Merlion Park</string>
+    <string name="merlion_content">Catch a glimpse of Singapore’s most majestic icon, the Merlion, a mythical creature that’s half-fish and half-lion. The Merlion combines two elements of Singapore’s identity—its body symbolises the fishing villages of Singapore’s past, while its lion head is a symbol of Singapura (“lion city” in Sanskrit).
+
+The Merlion, built by local craftsman Lim Nang Seng, was unveiled on 15 September 1972 by then-Prime Minister Lee Kuan Yew. The icon was originally positioned at the mouth of the Singapore River, but was later moved to its current spot overlooking the bay at the Merlion Park.
+
+Merlion Park. One Fullerton, Singapore 049213.
+Daily 24 hours.</string>
+    <string name="singapore_flyer_title">Singapore Flyer</string>
+    <string name="singapore_flyer_content">Standing at 165 metres above ground is Asia’s largest observation wheel, the Singapore Flyer. Launched in 2008, the wheel is a favourite tourist attraction due to its vantage point offering stunning panoramic views of Marina Bay and th­e city. Over the years, the Singapore Flyer has also become a significant feature in the backdrop of the FORMULA ONE Singapore Grand Prix Marina Bay Street Circuit.
+
+Singapore Flyer. 30 Raffles Avenue, Singapore 039803.
+Daily 8.30am-10.30pm.</string>
+    <string name="old_parliament_title">Old Parliament House</string>
+    <string name="old_parliament_content">Now known as The Arts House, the Old Parliament House is probably the oldest surviving colonial structure in Singapore. In 1826, the original building was designed and built by architect G.D. Coleman as a neo-Palladian residence. The former Parliament House was gazetted as a national monument in 1992 and in 2003, was converted to The Arts House—which has been a polestar for the Arts in Singapore since.
+
+Old Parliament House.1 Old Parliament Lane, Singapore 179429. 
+Daily 10am-10pm.</string>
+    <string name="national_gallery_title">National Gallery Singapore</string>
+    <string name="national_gallery_content">What is now the National Gallery Singapore used to be two national monuments: the former Supreme Court and City Hall. Located in the heart of the civic district, both buildings have borne witness to several of Singapore’s historical milestones. First constructed in the 1920s and 30s, both the former Supreme Court and City Hall are now home to Singapore’s largest museum, housing a vast collection of artwork within its historically rich halls.
+
+National Gallery Singapore. 1 Supreme Court Lane, Singapore 178879.
+Mon-Thu &#38; Sun 10am-7pm; Fri &#38; Sat 10am-10pm.</string>
+    <string name="istana_title">The Istana</string>
+    <string name="istana_content">The Istana, which means ‘palace’ in Malay, is the official residence and office of the President of Singapore. The iconic venue is where the President receives and entertains state guests, and is also home to the Prime Minister’s office.
+
+Standing on what used to be a nutmeg plantation, the Istana grounds are a sanctuary of flora and fauna amidst the bustle of the city. Be sure to time your trip to The Istana, as its grounds are only open to the public on selected days each year.
+
+Istana. Orchard Road, Singapore 238823.
+More information on visiting days and hours here.</string>
+    <string name="fullerton_title">The Fullerton Hotel Singapore</string>
+    <string name="fullerton_content">The Fullerton Hotel Singapore of modern day is a five-star hotel known for its stately seat overlooking the Singapore River. But it wasn’t always the address of luxury. Originally built as a fort in 1829, the building later also became home to the country’s General Post Office in 1928. This now 400-room heritage hotel has a grandeur that speaks to its rich history, with its imposing Neo-classical façade and elegantly sky-lit central atrium.
+
+Fullerton Hotel Singapore. 1 Fullerton Square, Singapore 049178</string>
+    <string name="helix_bridge_title">Helix Bridge</string>
+    <string name="helix_bridge_content">Opened in 2010, the Helix Bridge is the longest pedestrian bridge in Singapore and serves as a link way between Marina Centre and the Bayfront area. Its unique form is modelled after the double helix DNA, symbolising “life and continuity, renewal and growth”. Look out for the pairs of coloured letters ‘c’ and ‘g’, as well as ‘a’ and ‘t’ on the bridge, which represent the four bases of DNA—a fun detail that will please the science geeks among us.
+
+Helix Bridge. Bayfront Avenue, Singapore 038981.
+Daily 24 hours.</string>
+    <string name="parkview_title">Parkview Square</string>
+    <string name="parkview_content">Parkview Square was designed by Singapore’s DP Architects and James Adams Design of USA, and is especially significant due to its Art Deco-inspired design.
+
+The exterior of Parkview Square is a majestic amalgam of bronze and glass, and its distinct architectural style has led locals to refer to it as ‘the Gotham building’. Aptly so, as the façade bears an uncanny resemblance to Batman’s fictional hometown.
+
+The Art Deco interiors have also inspired a bar that has taken residence in the building’s lobby: Atlas. The bar is dedicated to gin, and stocks hundreds of rare or limited edition varieties within a three-storey-tall tower that dominates the space.
+
+Parkview Square. 600 North Bridge Road, Singapore 188778.
+Building: Mon-Fri 9am-6pm.
+Atlas: Mon-Thu 10-1am; Fri 10-2am; Sat 3pm-2am.</string>
+    <string name="cenotaph_title">The Cenotaph</string>
+    <string name="cenotaph_content">In the heart of Singapore’s Central Business District stands the Cenotaph, a war memorial built in memory of the 124 British soldiers who fought and died in World War I and World War II. The memorial was unveiled on 31 March 1922 and has stood in the Esplanade Park since, with a sobering inscription at its base which reads, ‘They died that we might live.’
+
+The Cenotaph. Connaught Drive, Singapore 179682.
+Daily 24 hours.</string>
+    <string name="marina_bay_title">Marina Bay Sands®</string>
+    <string name="marina_bay_content">First opened in 2011, Marina Bay Sands® has established itself as one of Singapore’s most versatile attractions. You can opt for a luxury stay at their 55-storey hotel, shop till you drop at The Shoppes at Marina Bay Sands®, or soak up a little art and culture at the ArtScience Museum™.
+
+Marina Bay Sands®’ sloping towers and sky-high Infinity Pool have interesting stories behind them, too—Tower 1 of the hotel has a 26-degree slope, which is considered prosperous since the individual digits add up to 8, a lucky number in Chinese culture; and the Infinity Pool is an auspicious symbol of a lake at the top of a mountain.
+
+Marina Bay Sands®. 10 Bayfront Ave, Singapore 01895.10 Bayfront Ave, Singapore 01895.</string>
+    <!-- The string values for "Nature & Wildlife" section -->
+
+    <string name="botanic_gardens_title">Explore the Singapore Botanic Gardens</string>
+    <string name="botanic_gardens_content">Tour operator: Let’s Go Bike Singapore
+
+Honoured with a UNESCO World Heritage site award in 2015, the Singapore Botanic Gardens is a star attraction for visitors and local nature lovers alike. This 82-hectare space houses over 10,000 species of flora, and explorers with a love for botany are certain to learn a thing or two about tropical ecosystems when they visit.
+
+To explore the gardens and the surrounding urban landscape, hop on a bike with the good folks at Let’s Go Bike Singapore, via a private tour. You’ll be able to customise your sightseeing options on this tour, but we suggest a route that takes you past Singapore’s bustling shopping belt of Orchard Road, the Istana (official residence of the President of Singapore) and into the heart of the Singapore Botanic Gardens.
+
+Thereafter, you’ll be able to conclude the tour at the Singapore River, a buzzing nightlife enclave with a history that’s deeply entwined with Singapore’s past as a global trading metropolis.
+    </string>
+    <string name="gardens_by_the_bay_title">Singapore in a Nutshell: Introductory Sightseeing &#38; City Tour</string>
+    <string name="gardens_by_the_bay_content">Tour operator: Monster Day Tours
+
+This one’s for avid explorers who’re inspired by the contrast of urban and natural landscapes. The Sightseeing &#38; City Tour by Monster Day Tours is an intimate walking trail that will bring you around the heart of the city, encompassing Raffles Place, Marina Bay and the historic Singapore River.
+
+After learning about the city’s bustling urban landscapes, the tour will bring you to the verdant oasis of Gardens by the Bay, where you’ll gain a broad understanding of the intricacies of nature. This awe-inspiring, 101-hectare nature park boasts thousands of plant species, the world’s tallest indoor fountain and the iconic Supertree Grove, with its 50-metre-tall vertical gardens.</string>
+    <string name="southern_ridges_title">Take a fun walk along the Southern Ridges</string>
+    <string name="southern_ridges_content">Tour operator: National Parks Board (NParks)
+
+A perfect activity for families looking to inculcate an adventurous spirit in their children, the Fun Walk along The Southern Ridges will bring you on a leisurely stroll through a soothing sanctuary of lush greenery. The 10-kilometre stretch of green, open spaces wind from Mount Faber Park to the World Trade Centre.
+
+Besides being a hotspot for local bird watchers, the Southern Ridges also boasts some of the most beautiful vistas on the island, with panoramic views of the city and the southern coast.</string>
+    <string name="segway_eco_adventure_title">Segway® Eco Adventure+</string>
+    <string name="segway_eco_adventure_content">Tour operator: Segway® Tours Singapore
+
+The beach ain’t just for surfing! If you’d like to experience Singapore’s coastal landscapes, pay a visit to Sentosa, an island resort off the southern coast of Singapore’s main island. While its main claim to fame is as a playground for beach lovers, the island is also home to coastal forests and an array of diverse wildlife.
+
+You won’t have to hoof it across the island to see all its natural splendour. Instead, hop on a Segway® and cruise along all three of Sentosa’s beautiful beaches in the span of an hour.</string>
+    <string name="pulau_ubin_title">Mangrove Kayaking Adventure</string>
+    <string name="pulau_ubin_content">Tour operator: Asian Detours
+
+An emerald gem off the coast of Singapore, Pulau Ubin is an unspoiled island sanctuary, and a repository of diverse ecosystems, teeming wildlife and tropical flora. Pulau Ubin’s various natural habitats range from rocky beaches to seagrass lagoons and dense mangroves. Explorers who take the time to appreciate the locale’s rich diversity are certain to find themselves inspired by the natural beauty around them.
+
+While you can explore Pulau Ubin on foot, Asian Detours provides an aquatic option for your excursion, with a four-hour adventure into the mangroves of Pulau Ubin. This beginner-friendly kayaking expedition is a great way to learn the fundamentals of kayaking while exploring the island’s pristine wetlands.</string>
+    <string name="sungei_buloh_title">Discover the natural riches of Sungei Buloh</string>
+    <string name="sungei_buloh_content">Tour operator: Strix Wildlife Consultancy
+
+Avid bird-watching fans who’d like to hone their powers of observation should pay a visit to the tropical wetlands of Sungei Buloh. The first wetlands reserve to be gazetted in Singapore, this haven for wildlife is a stopover point for migratory birds such as the Himalayan Swiftlet and Great Egret.
+
+For a leisurely exploration of Sungei Buloh, take a morning walk with the experts from Strix Wildlife Consultancy, as they bring you on an eco-themed adventure into Singapore’s verdant wetlands. Led by stalwart conservationist and veteran eco-tour guide Subaraj Rajathurai, these tours will certainly enrich your understanding of Singapore’s natural habitats and ecosystems.</string>
+    <!-- The string values for "Shop" section -->
+
+    <!-- The string values for "Shop at the Airport" section -->
+
+    <string name="shilla_title">THE SHILLA Duty Free</string>
+    <string name="shilla_content">At Changi Airport, you can browse through one of the largest collections and diverse mix of duty-free shops in Singapore. Head to THE SHILLA Duty Free for Asia Pacific’s widest range of cosmetics and perfumes that has been specially curated to fulfil your beauty needs. Indulge in your passion for beauty and skincare products here, with over 140 international brands to choose from, including popular Korean cult labels. While you are at the store, spoil yourself with their in-house spa treaments that’ll keep you refreshed for the journey ahead.
+
+Terminal 3 is home to SHILLA Loft, where you can find four luxury brands taking centre stage with pampering lounges—Chanel, Dior, La Prairie, and SK-II. Enjoy a personalised skincare routine, expertly curated by the knowledgeable staff that choose the best products to bring out the best in you.
+
+THE SHILLA Duty Free, Singapore Changi Airport. Airport Boulevard, Departure lounges of Terminals 1, 2, 3, 4.
+Various opening hours, find out more here.
+
+    </string>
+    <string name="gassan_title">Gassan Watches</string>
+    <string name="gassan_content">
+        Changi Airport is also home to tax-free shops like Gassan Watches, where you can buy branded timepieces from the likes of Cartier, Omega, Breitling to reflect your exquisite taste.
+
+        Gassan Watches, Singapore Changi Airport. Airport Boulevard, Departure lounges of Terminal 1, 4.
+Open 24 hours.</string>
+    <string name="dfs_wines_title">DFS Wines &#38; Spirits</string>
+    <string name="dfs_wines_content">Indulge in a wide selection of some of the world’s most premium wines and spirits available right at the airport. Add to your collection at home from a host of well-known names like Johnny Walker Red Label Scotch, Hennessy XO Grand Champagne and Camus L’Elegant. Discerning hosts, this bevvy of bottles will up your socialising game.
+
+DFS Wines &#38; Spirits, Singapore Changi Airport. Airport Boulevard, Departure lounges of Terminals 1, 2, 3, 4.
+Daily 6am-12am.</string>
+    <!-- The string values for "Shop at the Cruise Centre" section -->
+
+    <string name="dfs_wines_tanah_merah_title">DFS Singapore Tanah Merah</string>
+    <string name="dfs_wines_tanah_merah_content">Before travelling to our neighbouring islands by sea, visitors can treat yourselves to a wide array of products in our duty-free shops stationed conveniently at HarbourFront and Tanah Merah ferry terminals. Shop in stores with designs inspired by the traditional seafront buildings nestled among Singapore’s coastline. Choose from more than 150 brands, from luxury bags to local food. The dizzying array of choices available at your fingertips suit every budget and every taste.
+
+DFS Singapore operates at Singapore Cruise Centre @ Tanah Merah and Singapore Cruise Centre @ HarbourFront.
+
+DFS Singapore, Singapore Cruise Centre @ Tanah Merah. 50 Tanah Merah Ferry.
+Daily 9am-9.30pm.</string>
+    <string name="dfs_wines_harbourfront_title">DFS Singapore HarbourFront</string>
+    <string name="dfs_wines_harbourfront_content">Singapore Cruise Centre HarbourFront is also next to our island’s largest shopping mall, VivoCity, so you can continue to shop till you drop from their extensive range of over 300 stores there. Step into our homegrown departmental store TANGS and shop from a spread of local and international products, including Singapore fashion label In Good Company, Bobbi Brown cosmetics and Timberland shoes.
+
+DFS Singapore, Singapore Cruise Centre @ HarbourFront Centre. 1 Maritime Square #01-17/20, Singapore 099253.
+Mon-Sun 9am-9.30pm.</string>
+    <!-- The string values for "Shop at the heart of the city" section -->
+
+    <string name="t_galleria_title">T Galleria</string>
+    <string name="t_galleria_content">You don’t have to go far from the city to shop duty-free. DFS’ T Galleria, located in the heart of Orchard Road, offers a wonderland of handbags, fragrances, spirits and beyond, carrying over 700 brands. Shopping here is indeed a relaxing experience—give yourself the VIP treatment with a beauty concierge for complimentary makeup and skincare treatments; or lie on plush sofas to rest your aching feet after browsing their extensive offerings.
+
+Rows of TWG tea containers on display
+Sip some tea at our homegrown and world famous café TWG Tea, found in T Galleria. Choose from their many unique blends of tea, and have a breather before you continue your shopping experience at the many retail spaces lined up along Orchard Road.
+
+T Galleria. 25 Scotts Rd, Singapore 228220.
+Daily 11am-8pm.</string>
+    <string name="tangs_title">TANGS</string>
+    <string name="tangs_content">Along our iconic shopping destination, Orchard Road, are also our well-loved and prominent departmental stores TANGS and Robinsons, where you can find home grown and international labels are comfortably stocked under one roof. Take a break anytime at one of our many Michelin-starred restaurants that are dotted along Orchard Road.
+
+Orchard Road is home to a delightful range of flagship stores, from luxury brands like Hermes and Michael Kors to casualwear brands like Japanese fashion giant, Uniqlo.
+
+TANGS at Tang Plaza. 310 Orchard Rd, Singapore 238864.
+Daily 10am-10pm.</string>
+    <!-- The string values for "Desserts" section -->
+
+    <string name="chendol_title">Chendol</string>
+    <string name="chendol_content">Beat the heat or cool down from a spicy meal with this local favourite. The Singapore variant of this sweet treat typically includes shaved ice, green rice flour jelly, adzuki beans, coconut milk and gula melaka (palm sugar). The latter two ingredients provide the dessert with a refreshing fragrance that many locals love.
+
+Where to get your fix: We recommend visiting Old Amoy Chendol in the neighbourhood of Chinatown to sample this dish, followed by an exploration of the wealth of murals and local experiences in the vicinity.
+
+Chinatown Complex Market &#38; Food Centre. 335 Smith Street #02-008, Singapore 050335.
++65 8748 7590.
+Daily 10.30am-9pm.</string>
+    <string name="tau_huay_title">Tau Huay</string>
+    <string name="tau_huay_content">A much-beloved comfort food for many Singaporeans, tau huay is a soya beancurd dish that pairs silky-smooth texture with subtly sweet flavours. This dish is often served with you tiao (fried dough fritters), so we recommend requesting for less syrup if you happen to be counting calories.
+
+Where to get your fix: This dish is normally consumed for either breakfast or supper. Regardless the time of the day, we recommend visiting Yong He Eating House, a 24-hour eatery in the bustling enclave of Geylang.
+
+Yong He Eating House. 458 Geylang Road, Singapore 389417. +65 6745 5682. 
+Daily 24 hours.</string>
+    <string name="pulut_hitam_title">Pulut Hitam</string>
+    <string name="pulut_hitam_content">Named bubur pulut hitam (black glutinous rice porridge) at some establishments, this dessert is served with a generous dollop of coconut milk, which provides it with a sweet fragrance. Black glutinous rice has great nutritional value, so health buffs shouldn’t be too worried about digging in!
+
+Where to get your fix: Grab a serving of pulut hitam from Hajjah Fatimah. The dessert store is located at Tekka Market and Food Centre, in the bustling enclave of Little India. Enjoy this sweet treat alongside a wide range of local staples at the food court, and then take a multisensory tour of the wet market within the same building.
+
+Tekka Market and Food Centre. 665 Buffalo Road #01-221, Singapore 210665.
+Daily 6am-3pm.</string>
+    <string name="ice_kachang_title">Ice Kachang</string>
+    <string name="ice_kachang_content">Made with brightly-coloured syrup drizzled onto a mountain of finely-shaved ice piled atop red beans, sweet corn and atap chee (palm seed), ice kachang is a great way to cool off in Singapore’s tropical climate.
+
+Many Singaporeans have fond childhood memories of this visually striking dessert, making it a great pick for those looking to flaunt their Singaporean foodie escapades on Instagram, or to delight the little ones.
+
+Where to get your fix: To expand your culinary horizons—and taste more scrumptious hawker fare—drop by Jin Jin Hot/Cold Dessert stall at ABC Brickworks Food Centre. The hawker centre offers an array of local staples, including Michelin Bib Gourmand worthy dishes from hawker stalls Ah Er Soup and Tiong Bahru Yi Sheng Fried Hokkien Prawn Mee.
+
+ABC Brickworks Food Centre. 6 Jalan Bukit Merah #01-21, Singapore 150006.
+Mon, Tue &#38; Thu-Sun 12.30-10pm.</string>
+    <string name="gulab_jamun_title">Gulab Jamun</string>
+    <string name="gulab_jamun_content">Gulab jamun is a traditional Indian dessert made from deep-fried powdered milk balls and soaked in a sinfully sweet syrup (often rose-scented). Remember to eat your way through the neighbourhood of Little India before ending off with gulab jamun to complete the experience!
+
+Where to get your fix: Learn about the intricacies of South Asian culinary technique with a meal at The Banana Leaf Apolo, and then round off your experience by ordering this dessert. If this dish left you craving for more Indian desserts, the Moghul Sweet Shop at Little India Arcade provides a wide variety of traditional Indian sweets.
+
+The Banana Leaf Apolo. 54 Race Course Road, Singapore 218564.
++65 6293 8682.
+Daily 11am-10.30pm.
+
+Moghul Sweet Shop at Little India Arcade. 48 Serangoon Road #01-16, Singapore 217959.
++65 6392 5797.
+Daily 11am-9pm.</string>
+    <string name="cheng_teng_title">Cheng Teng</string>
+    <string name="cheng_teng_content">Containing ingredients found in traditional Chinese medicine, cheng teng is a light and healthy dessert soup with gingko nuts, lotus seeds, longans, red dates and white fungus. There are cold and hot variants of the dessert, so feel free to try both and figure out which you prefer.
+
+Where to get your fix: A dedicated dessert stall housed within the popular Newton Food Centre, 88 Shan Ren Cold &#38; Hot Dessert serves up a variety of traditional local treats at an affordable price range.
+
+Newton Food Centre. 500 Clemenceau Avenue North #01-05, Singapore 229495. +65 8157 1905.
+Daily 11am-11pm.</string>
+    <string name="bubur_chacha_title">Bubur Cha Cha</string>
+    <string name="bubur_chacha_content">This vibrant-looking Peranakan* dessert is made with coloured translucent tapioca jelly cubes in a fresh coconut milk soup, and accompanied by steamed sweet potato. There are several variations that add a range of ingredients such as agar agar (jelly), jackfruit and sago into the mix.
+
+Where to get your fix: A laidback eatery that serves up authentic Peranakan fare, PeraMakan is a great option if you’d like to deepen your understanding of nonya culinary tradition.
+
+*The term is an Indonesian/Malay word that means “local born”, which generally refers to people of Chinese and Malay/Indonesian heritage.
+
+Keppel Club. 10 Bukit Chermin Road Level 3, Singapore 109918. +65 6377 2829.
+Daily 11.30am-3pm, 6-10pm.</string>
+    <string name="sugee_title">Sugee Cake</string>
+    <string name="sugee_content">Sugee is an Indian word for semolina flour, which is a key ingredient in this classic local Eurasian dessert. The semolina affords the cake a rich texture, a pleasant accompaniment to its buttery taste. You can either get a plain version, or a sweeter option drenched in icing.
+
+Where to get your fix: Singapore’s Eurasian community is rightfully proud of its unique cuisine, which blends the flavours of both East and West. Expand your culinary horizons at Quentin’s Eurasian Restaurant, housed within the Eurasian Community House.
+
+Eurasian Community House. 139 Ceylon Road, Singapore 429744. +65 6348 0327.
+Tue-Fri 11.30am-2.30pm, 6.30-10.30pm; Sat &#38; Sun 11am-2pm, 6.30-10.30pm.</string>
+    <!-- The string values for "Foods" section -->
+
+    <!-- The string values for "Foods in Central" section -->
+
+    <string name="maxwell_food_title">Maxwell Food Centre</string>
+    <string name="maxwell_food_content">Maxwell Food Centre is nestled in a storied neighbourhood of pre-war shophouses and various places of worship. Located at the foot of Club Street and Ann Siang, you’ll find local foods like chicken rice by Tian Tian Chicken Rice, which was recommended by the Michelin Guide’s Bib Gourmand, as well as Eurasian meals like shepherd’s pie and devil’s curry (spicy curry flavoured with candlenuts and vinegar) by Popo &#38; Nana&#39;s Delights.
+
+Near Chinatown, Telok Ayer and Tanjong Pagar MRT stations.
+
+Maxwell Food Centre. 1 Kadayanallur Street, Singapore 069184.
+Daily 8-2am.</string>
+
+    <string name="lau_pa_sat_title">Lau Pa Sat</string>
+    <string name="lau_pa_sat_content">This historic market was designed by George Coleman in the 1830s, and has since been carefully restored. Home to local favourites and international cuisines like North Indian, Korean, Filipino, Japanese and Vietnamese, Lau Pa Sat is the go-to location for good hawker fare in the Central Business District. Singapore&#39;s famous Satay Street runs parallel to Lau Pa Sat, where Stalls 7 and 8 arguably sell the best rendition of the street&#39;s namesake grilled beef and chicken skewers (satay).
+
+Near Raffles Place, Tanjong Pagar, Telok Ayer and Downtown MRT stations.
+
+Lau Pa Sat. 18 Raffles Quay, Singapore 048582.
+Select stalls are open 24 hours daily.</string>
+    <string name="tekka_title">Tekka Centre</string>
+    <string name="tekka_content">The epicentre of Little India’s bustle, Tekka Centre was formerly named "Kandang Kerbau" after its buffalo pens, and is now named after the bamboo that used to grow in this area. Ethnic garments and accessories are sold on its upper floor, while the dum briyani (an Indian spiced rice dish with meat or vegetables) and Indian rojak (mixed fritters of dough, potato and shrimp) of its food stalls below are touted as some of the best in the country.
+
+Above Little India MRT station.
+
+Tekka Centre. 60 Bukit Timah Road, Singapore 229900.
+Daily 6.30am-9pm.</string>
+    <!-- The string values for "Foods in West" section -->
+
+    <string name="tiong_bahru_market_title">Tiong Bahru Market</string>
+    <string name="tiong_bahru_market_content">Tiong Bahru Market resides in a heritage neighbourhood of Art Deco style apartments and great eats. Get your share of local delights like delicious wanton mee (egg noodles with dumplings) and chwee kueh (steamed rice cakes topped with preserved radish), and don’t miss the famous roasted pork buns at Tiong Bahru Pau. Then, head to one of the many modern cafes in the area for coffee and dessert.
+
+Between Outram and Tiong Bahru MRT stations.
+
+Tiong Bahru Market. 30 Seng Poh Road, Singapore 168898.
+Daily 6am-11pm.</string>
+    <string name="abc_food_centre_title">ABC Brickworks Food Centre</string>
+    <string name="abc_food_centre_content">Walking distance from Hort Park, Henderson Waves bridge and the many art galleries of Gillman Barracks, ABC Brickworks Food Centre is named after the Archipelago Brewery Company and the brickworks factories that used to populate this neighbourhood. Built in the 1970s, ABC Brickworks Market is well maintained as a modern and popular venue today, whose claypot rice, which consists of chicken, preserved sausages, vegetables and rice charred and served in a claypot, and Bib Gourmand-winning Ah Er herbal soup attract foodies from across the country.
+
+Near Redhill and Queenstown MRT stations.
+
+ABC Brickworks Food Centre. 6 Jalan Bukit Merah, Singapore 150006.
+Daily 8am-1am.</string>
+    <string name="adam_road_title">Adam Road Food Centre</string>
+    <string name="adam_road_content">Adam Road Food Centre is a stone’s throw from the Singapore Botanic Gardens, whose serene trails bypass swan lakes and lead to award-winning restaurants like Corner House and The Halia. Adam Road’s acclaimed hawker centre is known for its nasi lemak (fragrant rice dish cooked in coconut milk and pandan leaf, accompanied with an array of side dishes like omelette, fried fish and anchovies) at Selera Rasa Nasi Lemak and sup kambing (mutton soup) at Bahrakath Mutton Soup King.
+
+Beside Botanic Gardens MRT station.
+
+Adam Road Food Centre. 2 Adam Rd, Singapore 289876.
+Daily 7am-10pm.</string>
+    <!-- The string values for "Foods in East" section -->
+
+    <string name="chomp_chomp_title">Chomp Chomp</string>
+    <string name="chomp_chomp_content">In the residential neighbourhood of Serangoon Gardens, make Chomp Chomp your pit stop for mouthwatering grub before you explore Coney Island or Seletar Aerospace Park. This market’s satay bee hoon (thin rice noodles in satay sauce) and Hokkien mee (stir-fried prawn noodles) are top sellers. Wash your meal down with sugar cane juice, which is available in an extra-large glass.
+
+Chomp Chomp Food Centre. 20 Kensington Park Road, Singapore 557269. Take a bus from Serangoon MRT station.
+Daily 2pm-12.30am.</string>
+    <string name="golden_mile_title">Golden Mile Food Centre</string>
+    <string name="golden_mile_content">Golden Mile Food Centre is in close proximity to Kampong Glam, which is home to hip cafes and bars. Golden Mile Food Centre’s two storeys of stalls purvey good sup tulang (mutton bone stewed in gravy), Peranakan fare, Ah-Balling (glutinous riceballs with peanut, sesame or red bean filling, in a peanut soup), and also houses a new and already highly rated Halal burger stall Burgs by Project Warung.
+
+Between Nicoll Highway and Lavender MRT stations.
+
+Golden Mile Food Centre. 505 Beach Road, Singapore 199583.
+Daily 7-1am.</string>
+    <string name="bedok_marketplace_title">The Bedok Marketplace</string>
+    <string name="bedok_marketplace_content">Previously known as Simpang Bedok Marketplace, The Bedok Marketplace is a beloved and recently renovated hawker centre where East-siders have always congregated for good mee pok (flat egg noodles served with fish balls and minced meat) and Indian Muslim fare. The hawker centre is now run by young chefs and restaurateurs, whose home-baked bread, ramen and seafood are must-tries. The Burning Oak’s Wagyu steaks are highly recommended, along with the Caribbean and Japanese dishes of Mike’s Caribbean food and KoKoRo Ramen respectively. Now rebranded as The Bedok Marketplace, this esteemed establishment is a ten-minute walk from Tanah Merah MRT station, and is fifteen minutes from Changi International Airport via taxi.
+
+Take buses 2, 9 or 48 from Tanah Merah MRT station.
+
+The Bedok Marketplace. 288A Bedok Rd, Singapore 469445.
+Daily 8am-2am.</string>
+    <!-- The string values for "History" section -->
+
+    <string name="battlebox_title">The Battlebox Tour: A Story of Strategy &#38; Surrender™</string>
+    <string name="battlebox_content">Formerly a World War II British underground command centre inside Fort Canning Hill, the Battlebox is now a museum open to the public. It was here that the British surrendered Singapore to the invading Japanese on 15 February 1942. To fully immerse yourself in stories of the past, sign up for The Battlebox tour, A Story of Strategy and Surrender™, to experience the story of the fall of Malaya and Singapore in WWII, and learn how the Battlebox functioned during the war.
+
+Book your tickets at Battlebox Visitor Centre, email Journeys Pte Ltd at enquiry@battlebox.com.sg or call +65 6338 6133.</string>
+    <string name="east_coast_title">East Coast and Changi</string>
+    <string name="east_coast_content">Those keen on a broader itinerary can go on the East Coast and Changi tour by Tour East Singapore. This excursion, which starts with a jaunt around Malay cultural enclave Kampong Glam, will take you through the Changi Chapel and Museum, where you’ll experience the tragedies and triumphs that emerged during WWII. Afterward, you’ll be driven through the quaint and rustic Changi Village to see a more tranquil, laidback side of modern Singapore, before making your way to Tampines New Town, a bustling heartland township.</string>
+    <string name="northern_resilience_title">Of Hardship, Hope and New Beginnings: The Northern Resilience Trail</string>
+    <string name="northern_resilience_content">The Northern Resilience Trail concentrates on Northern Singapore and the landmarks that were pivotal in Singapore’s WWII past, telling the story of hardship and hope in pre-independence Singapore. The main stops include Kranji War Memorial (the final resting place for 4,458 allied servicemen in marked graves), the Causeway (a vital link between Singapore and Malaysia) and the Gurdwara Sahib Yishun (for an introduction to the history of the Sikh population in Singapore), the Sembawang Shipyard (part of the Sembawang Naval Base), and the Sembawang Hot Springs (which were remodelled into a Japanese-style hot bath by Japanese army officers during the Japanese occupation of Singapore).
+
+Book your tickets at  A+B Edu Tours and Travel, email A+B Edu Tours and Travel Pte Ltd at nanak@abedutours.com.sg or call +65 6339 2114.</string>
+    <string name="southern_resilience_title">The Last Stand: The Southern Resilience Trail</string>
+    <string name="southern_resilience_content">Head down South and explore historical sites connected by the narrative thread of the Malay Regiment (an all-Malay military force formed in Malaya in 1933 under the command of British officers) and their last battles fought in February 1942. Start at Kent Ridge Park (part of the Southern Ridges that was defended by the Malay Regimen) for a panoramic view of the city—a scenic and poignant reminder of how far Singapore has come since WWII. Then, head to Reflections at Bukit Chandu, a WWII interpretive centre that pays homage to the heroism of ‘C’ Company 1st Battalion and its leader Lt. Adnan Bin Saidi, outlining the war efforts in Singapore and the sacrifices by ordinary Singaporeans. The tour also takes visitors to Labrador Park, which was part of the coastal defence of Singapore during the war.
+
+Book your tickets at A+B Edu Tours and Travel, email A+B Edu Tours and Travel Pte Ltd at nanak@abedutours.com.sg or call +65 6339 2114.</string>
+    <string name="temasek_title">The Temasek Trail: Story of a Nation</string>
+    <string name="temasek_content">Journey to 14th century Singapore on the Temasek Trail, where you can learn about different periods of Singapore&#39;s history from the time of the ancient Malay kings to the present day. Gain insight into the stories of Singapore&#39;s strategic responses to national challenges when you visit Fort Canning Park, formerly known as Government Hill (where colonial-era governors used to reside), the Lim Bo Seng Memorial, a monument that commemorates one of Singapore&#39;s heroes from WWII, and the Cenotaph, a memorial that honours the 124 men from Singapore who died in action during World War I.
+
+Book your tickets at Singapore History Consultants, email Singapore History Consultants at tourenquiries@shc.com.sg or call +65 6221 3804.</string>
+    <string name="bukit_chandu_title">Reflections at Bukit Chandu / War &#38; Peace: The Kranji Experience™</string>
+    <string name="bukit_chandu_content">One of the fiercest battles that took place in Singapore during WWII is the Battle of Pasir Panjang, in which Second Lieutenant Adnan Saidi led the Malay Regiment soldiers against a 13,000-strong Japanese army. Relive this heroic clash at Reflections at Bukit Chandu by The National Heritage Board as you interact with the historical artefacts and exhibits.
+
+For a more in-depth war experience, you can also embark on the War &#38; Peace: The Kranji Experience tour by Singapore History Consultants, as you explore the site of Kranji Beach Battle, the second attack on Singapore by the Japanese before the Battle of Pasir Panjang.
+
+Book your tickets at Singapore History Consultants, email Singapore History Consultants at tourenquiries@shc.com.sg or call +65 6221 3804.</string>
+    <!-- The string values for "Culture" section -->
+
+    <string name="fengshui_title">A Walk with our Ancestors: Feng Shui Tour by Tour East Singapore</string>
+    <string name="fengshui_content">Duration: Four hours
+
+The Chinese practice of feng shui (geomancy) is ingrained in the architectural roots of Singapore, and influences buildings both old and new. To learn about this practice first-hand, embark on this tour. A personal guide will pick you up from your hotel and chaperone you around the city, pointing out how feng shui elements—such as the ‘Seven Falling Stars’—have shaped our skyscrapers.
+
+Marina Bay Sands® is one of the stops on this tour—yes, even the property’s modern architecture has been influenced by traditional feng shui. Learn about the significance of the Rain Oculus, an art installation on the premises, and how its shape is believed to create wealth. You’ll also get to skip along Singapore’s bustling shopping belt, Orchard Road, and discover its history as a former Teochew cemetery.
+
+The Feng Shui Tour is held every Monday, Wednesday and Friday from 9am to 1pm, and requires a minimum of two guests.
+
+Central Mall Office Tower. 1 Magazine Road #07-05/06, Singapore 059567. +65 6735 1221.
+Daily 8am-7pm.</string>
+    <string name="sultan_of_spice_title">Sultan of Spice by Journeys</string>
+    <string name="sultan_of_spice_content">Duration: Two and a half hours
+
+Taking a trip down the city’s memory lane wouldn’t be complete without a tour of cinnamon, coriander and crowns. Before Sir Stamford Raffles stepped foot on the island, Singapore was ruled by Malay sultans, and it was one of the crown jewels along the spice trade route.
+
+Embark on this trail to learn more about our pre-colonial days. After meeting your guide at Bugis Mass Rapid Transit (MRT) station, stumble through snaking alleyways and restored shophouses that lead to the Sultan Mosque, which was built for Sultan Hussein Shah, a 19th-century ruler. With grand minarets and a golden dome perched at the top, the mosque’s exterior is a treat for the eyes—and your camera.
+
+Take in the charming and laid-back neighbourhood of Kampong Glam before visiting a traditional Muslim supplies shop to browse Persian carpets, kebaya (traditional Malay dresses) and perfumes handmade the old-school way. Afterwards, drop by a former palace at Istana Kampong Glam, then pay a visit to the Royal Graveyard, the final resting place of several members of royal houses.
+
+Tours are held every Thursday, from 9.30am to noon. Take note: to enter the Sultan Mosque and marvel at its halls and intricate columns, you’ll need to be dressed appropriately—in long trousers or skirts, and sleeved blouses or shirts.
+
+Haw Par Villa Management Office. 262 Pasir Panjang Road, Singapore 118628. +65 6325 1631.
+Mon-Fri 9am-6pm.</string>
+    <string name="india_title">Dhobis, Saris and Spot of Curry by Journeys</string>
+    <string name="india_content">Duration: Two and a half hours
+
+Little India orchestrates a sensory symphony with its sights, sounds and smells. This tour introduces you to aspects of traditional Indian culture and the Hindu religion, in the cultural precinct that has withstood the test of time. Follow the aroma of spices seeping out from the restaurants onto the streets, and keep your eyes peeled for flower garlands being weaved on roadside pushcarts.
+
+Down at the Little India Arcade, you’ll find a cluster of shophouses selling authentic Indian products such as jewellery and garb—drop by to pick up some interesting souvenirs. The tour also stops at one of Singapore’s oldest temples, the Sri Veeramakaliamman Temple. It’s a standing reminder of our roots; the temple was erected in 1855 by Indians who had arrived in Singapore for work.
+
+Tours are held every Tuesday from 9.30am to noon, and begin at the Little India MRT station exit along Buffalo Road.
+
+Haw Par Villa Management Office. 262 Pasir Panjang Road, Singapore 118628. +65 6325 1631.
+Mon-Fri 9am-6pm.</string>
+    <string name="chinese_title">Red Clogs Down the Five Foot Way by Journeys</string>
+    <string name="chinese_content">Duration: Two and a half hours
+
+Home to exotic fruits, steaming hot buns and sticky cakes, the streets of Chinatown are distinct—and delicious—reminders of our Chinese heritage. And there’s no better way to explore the precincts food, culture and traditions than in this tour.
+
+At Chinatown Heritage Centre, travel back in time and retrace the steps of early Chinese immigrants before strolling down rows of traditional shophouses that have been converted into shops and restaurants.
+
+Don’t miss the opportunity to check out the Chinatown market, too. Known colloquially as a “wet market”, the sprawling space bustles with activity while the scents of tropical fruits and spices hang in the air.
+
+Tours are held every Monday from 9.30am to noon, and begin at Chinatown station, along Pagoda Street.
+
+Haw Par Villa Management Office. 262 Pasir Panjang Road, Singapore 118628. +65 6325 1631.
+Mon-Fri 9am-6pm.</string>
+    <string name="religion_title">Unity in Diversity by A+B Edu Tours and Travel</string>
+    <string name="religion_content">Duration: Three hours
+
+In this city, people of faith join hands and break barriers. Our multi-religious harmony can best be appreciated on Waterloo Street, where four places of worship harmoniously co-exist—Buddhists, Jews, Christians and Hindus share the same, 550-metre-long strip.
+
+Find out more about the synagogue, temples and churches on this tour. Meet Buddhist devotees who shuttle between the Kwan Im Thong Hood Cho and Sri Krishnan temples to pay their respects to different deities. Learn about the local Jewish community at Maghain Aboth, the oldest synagogue in Southeast Asia, and the Chinese Catholics at the Church of Saints Peter and Paul. And if you still have some time after the tour, make a quick detour to Bencoolen Street, where Masjid Bencoolen serves the local Muslims.
+
+Tours are held every Monday to Thursday and Saturday, from 4 to 7pm. They begin at the Bras Basah MRT station exit along Waterloo Street.
+
+Golden Mile Tower. 6001 Beach Road #18-04, Singapore 199589. +65 6339 2114.
+Mon-Fri 9am-5pm; Sat 9am-noon.</string>
+    <!-- The string values for "Arts" section -->
+
+    <string name="tiong_bahru_title"></string>
+    <string name="tiong_bahru_content"></string>
+    <string name="chinatown_title">Chinatown</string>
+    <string name="chinatown_content">Begin your hunt for Chinatown’s wall murals at Banda Street, along Chinatown Complex. Mural artist Belinda Low’s influences include Van Gogh’s revolutionary style of post-Impressionism, and the resilient spirit of strong women. Many of her pieces include wistful depictions of the pioneers who built our nation, from fishermen and labourers to Samsui women (female migrants from Sanshui District, China, known for their iconic red headscarves).
+
+From Chinatown Complex, take a stroll towards Keong Saik Road, and make your way towards The Working Capitol Building. The walls of the streets around this co-sharing space have been filled with floral motifs, paying homage to the traditional Peranakan* tiles that you’ll observe on buildings in the vicinity. Ripple Root—the youthful design duo behind this mural—are known for creating whimsical designs inspired by nature and wildlife.
+
+*The term is an Indonesian/Malay word that means “local born”, which generally refers to people of Chinese and Malay/Indonesian heritage.
+
+A woman snapping a photo of the Thian Hock Keng wall mural along Amoy Street
+Your last stop in the neighbourhood will be at Amoy Street. Along the back wall of the 177-year-old Thian Hock Keng Temple, you’ll find a 40-metre-long mural, depicting the life stories of Singapore’s early Hokkien migrants. This piece of art movingly illustrates the hopes, struggles and sacrifices of Singapore’s earliest generation, and how they’ve shaped Singapore into the country it is today.
+
+Murals by Belinda Low. Along Chinatown Complex. Banda Street, Singapore.
+
+The Working Capitol mural by RIPPLE ROOT. 1 Keong Saik Road, Singapore 89109.
+
+“Thian Hock Keng Mural” by Yip Yew Chong. Thian Hock Keng Temple. 158 Telok Ayer Street, Singapore 068613</string>
+    <string name="little_india_title">Little India</string>
+    <string name="little_india_content">Pay a visit to Hindoo Road in Little India, and chances are that you’ll spy a wall adorned with the portrait of iconic Tamil film star Rajinikanth. Painted by Mohamed Zulkaernaen (who goes by the moniker of ZERO), the mural pays tribute to the Indian community and migrant workers who live in the area. Upon learning of Rajinikanth’s rags-to-riches story, the artist was moved to paint his likeness, and to foster a sense of hope in those who view the mural.
+
+A contrasting—but no less beautiful—work of art can be found along Belilios Lane in Serangoon. Painted by local artist Psyfool, this work of street art depicts traditional trades that were practised by the South Asian community in the area, such as parrot astrology (a form of fortune-telling popular among the Tamils of Tamil Nadu), linen-washing and garland making.
+
+“Working Class Hero” by ZERO. Carpark. 11 Hindoo Road, Singapore 209110.
+
+“Traditional Trades of Little India” by Psyfool. Wall of side alley along Belilios Lane, Singapore 219955.</string>
+    <string name="macpherson_title">MacPherson</string>
+    <string name="macpherson_content">You don’t have to visit the Louvre or the Museum of Modern Art to find artistic inspiration. Instead, take a stroll through Singapore’s heartlands, starting with the Housing Development Board (HDB) estates of MacPherson. The neighbourhood was named after Lieutenant Colonel Ronald MacPherson, who designed the beautiful Saint Andrews Cathedral.
+
+At the void deck under one of the blocks at Pipit Road, you’ll come face-to-face with a reproduction of Van Gogh’s Starry Night. Painted by art collective Social Creatives, the mural has earned a Special Community Project Award, and is part of an initiative to turn public spaces in housing estates into art galleries for the public.
+
+Social Creatives’ chief executive Faris Abdulkadir Basharahil has drawn parallels between wall murals and cave paintings, highlighting the long history that art has as a form of fundamental communication.
+
+Reproduction of “Starry Night” by Social Creatives. Void deck of Block 56 Pipit Road, Singapore 370056.</string>
+    <string name="haji_lane_title">Haji Lane</string>
+    <string name="haji_lane_content">Tucked away in Haji Lane, Blu Jaz Café is a much-beloved watering hole that hosts a range of DJs, jazz artistes and live music aficionados. You’ll want to do some window shopping before beginning your mural hunt at the walls surrounding the bar, which is adorned with art that takes inspiration from Central America.
+
+Another notable location includes the wall of The Singapura Club, which is spray-painted with a 15-metre-high mural of a turbaned man, drinking chai. Painted by local street artist, Ceno2, the mural references the heritage of the Arab Quarters.
+
+Blu Jaz Café mural by Didier ‘Jaba’ Mathieu. Blu Jaz Café. 11 Bali Lane, Singapore 189848.
+
+The Singapura Club mural by Ceno2. The Singapura Club. 36 Haji Lane, Singapore 189229.</string>
+    <string name="everton_title">Everton</string>
+    <string name="everton_content">Take a walk along memory lane (quite literally) at the laidback little enclave of Everton Park. Just opposite Everton Road lies Blair Plain, a conservation area consisting of a handful of shops and terraces. The walls here have been enlivened with murals by contemporary artist Yip Yew Chong, depicting scenes of street barbers, Chinese domestic workers and old-school provision shops.
+
+Fun fact: The mural depicting the elderly washerwoman was repainted by the artist for authenticity, after he was told that the grooves in traditional washing boards did not cover them entirely.
+
+“Amah” by Yip Yew Chong. 40 Everton Road, Singapore 089393.
+
+“Barber” by Yip Yew Chong. 39 Everton Road, Singapore 089392.
+
+“Provision Shop” by Yip Yew Chong. 8 Spottiswoode Park Road, Singapore 088635.</string>
+
 </resources>
