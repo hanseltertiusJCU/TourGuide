@@ -10,11 +10,13 @@
     android:layout_marginRight="16dp">
 
     <ImageView
+        android:id="@+id/location_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:src="@drawable/item_1"/>
+        tools:src="@drawable/item_1" />
 
     <TextView
+        android:id="@+id/location_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
@@ -23,6 +25,7 @@
         tools:text="@string/chendol_title"/>
 
     <TextView
+        android:id="@+id/location_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="@string/chendol_content"

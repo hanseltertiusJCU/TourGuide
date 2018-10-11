@@ -6,11 +6,13 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/location_image_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:src="@drawable/item_1"/>
 
     <TextView
+        android:id="@+id/location_title_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -21,6 +23,7 @@
         tools:text="@string/chendol_title"/>
 
     <TextView
+        android:id="@+id/location_content_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
