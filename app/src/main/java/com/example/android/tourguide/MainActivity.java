@@ -10,6 +10,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawerLayout;
     private Fragment fragment;
     private Class fragmentClass;
+    private NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
 
-        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView = findViewById(R.id.nav_view);
         // todo: modify the behaviour so that the default fragment is displayed when opening the app and when leaving the page, still save the existing fragment
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -94,23 +96,46 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-
-//        // Setup drawer view
-//        setupDrawerContent(navigationView);
     }
 
+    // A method to get item menu (which is then used for getting item id)
+    public Menu getSpecificMenu(){
+        Menu menuNav = navigationView.getMenu();
+        return menuNav;
+    }
 
-//    private void setupDrawerContent(NavigationView navigationView) {
-//        navigationView.setNavigationItemSelectedListener(
-//                new NavigationView.OnNavigationItemSelectedListener() {
-//                    @Override
-//                    public boolean onNavigationItemSelected(MenuItem menuItem) {
-//                        selectDrawerItem(menuItem);
-//                        return true;
-//                    }
-//                });
+//    public long getIdOnMenuItem(MenuItem menuItem){
+//
+//        long id;
+//
+//        switch (menuItem.getItemId()){
+//            case R.id.nav_shop:
+//                id = 0;
+//                break;
+//            case R.id.nav_history:
+//                id = 1;
+//                break;
+//            case R.id.nav_arts:
+//                id = 2;
+//                break;
+//            case R.id.nav_landmarks:
+//                id = 3;
+//                break;
+//            case R.id.nav_culture:
+//                id = 4;
+//                break;
+//            case R.id.nav_food:
+//                id = 5;
+//                break;
+//            case R.id.nav_dessert:
+//                id = 6;
+//                break;
+//            default:
+//                id = 0;
+//        }
+//        return id;
 //    }
+
 //
 //    // todo: modify the behaviour so that the default fragment is displayed and when leaving the page, still save the existing fragment
 //    public void selectDrawerItem(MenuItem menuItem) {

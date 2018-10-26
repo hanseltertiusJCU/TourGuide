@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -12,6 +13,7 @@ import android.widget.ListView;
 import com.example.android.tourguide.DetailActivity;
 import com.example.android.tourguide.Location;
 import com.example.android.tourguide.LocationAdapter;
+import com.example.android.tourguide.MainActivity;
 import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
@@ -52,8 +54,12 @@ public class DessertsLocationFragment extends Fragment{
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Make a new intent
                 Intent locationDetailIntent = new Intent(getActivity(), DetailActivity.class);
+                // Try to replace id
+                MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_dessert);
+                int itemId = menuItem.getItemId();
                 // Put extra on intent in order to be able to pass the item position
                 locationDetailIntent.putExtra("ItemPosition", position);
+                locationDetailIntent.putExtra("ItemId", itemId);
 
                 startActivity(locationDetailIntent);
 

@@ -32,45 +32,36 @@ public class CulturesLocationFragmentPagerAdapter extends FragmentPagerAdapter {
 
         switch (position){
             case 0:
-                fragmentView = new ChendolDetailFragment();
+                fragmentView = new FengshuiDetailFragment();
                 break;
             case 1:
-                fragmentView = new TauHuayDetailFragment();
+                fragmentView = new SultanOfSpiceDetailFragment();
                 break;
             case 2:
-                fragmentView = new PulutHitamDetailFragment();
+                fragmentView = new IndiaDetailFragment();
                 break;
             case 3:
-                fragmentView = new IceKachangDetailFragment();
+                fragmentView = new ChineseDetailFragment();
                 break;
             case 4:
-                fragmentView = new GulabJamunDetailFragment();
-                break;
-            case 5:
-                fragmentView = new ChengTengDetailFragment();
-                break;
-            case 6:
-                fragmentView = new BuburChaChaDetailFragment();
-                break;
-            case 7:
-                fragmentView = new SugeeDetailFragment();
+                fragmentView = new ReligionDetailFragment();
                 break;
             default:
                 fragmentView = null;
                 break;
         }
         // Return a Fragment object based on Fragment class in
-        // com.example.android.tourguide.dessertslocationfragmentdetail
+        // com.example.android.tourguide.cultureslocationfragmentdetail
         return fragmentView;
     }
 
     /**
      * Get a total number of fragments
-     * @return number of fragments in com.example.android.tourguide.dessertslocationfragmentdetail
+     * @return number of fragments in com.example.android.tourguide.cultureslocationfragmentdetail
      */
     @Override
     public int getCount() {
-        return 8;
+        return 5;
     }
 
 }
