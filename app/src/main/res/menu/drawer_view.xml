@@ -3,24 +3,24 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_shop"
-            android:title="Shop" />
+            android:title="@string/shop_title" />
         <item
             android:id="@+id/nav_history"
-            android:title="History" />
+            android:title="@string/history_title" />
         <item
             android:id="@+id/nav_arts"
-            android:title="Arts" />
+            android:title="@string/arts_title" />
         <item
             android:id="@+id/nav_landmarks"
-            android:title="Landmarks" />
+            android:title="@string/landmarks_title" />
         <item
             android:id="@+id/nav_culture"
-            android:title="Culture" />
+            android:title="@string/culture_title" />
         <item
             android:id="@+id/nav_food"
-            android:title="Food" />
+            android:title="@string/food_title" />
         <item
             android:id="@+id/nav_dessert"
-            android:title="Dessert" />
+            android:title="@string/dessert_title" />
     </group>
 </menu>

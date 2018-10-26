@@ -1,12 +1,15 @@
 package com.example.android.tourguide.locationsfragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.example.android.tourguide.DetailActivity;
 import com.example.android.tourguide.Location;
 import com.example.android.tourguide.LocationAdapter;
 import com.example.android.tourguide.R;
@@ -39,6 +42,19 @@ public class DessertsLocationFragment extends Fragment{
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                // Make a new intent
+                Intent locationDetailIntent = new Intent(getActivity(), DetailActivity.class);
+                // Put extra on intent in order to be able to pass the item position
+                locationDetailIntent.putExtra("ItemPosition", position);
+
+                startActivity(locationDetailIntent);
+
+            }
+        });
 
         return rootView;
     }

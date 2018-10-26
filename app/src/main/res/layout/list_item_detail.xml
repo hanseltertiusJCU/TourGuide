@@ -9,6 +9,7 @@
         android:id="@+id/location_image_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
         tools:src="@drawable/item_1"/>
 
     <TextView

@@ -398,8 +398,14 @@ Golden Mile Tower. 6001 Beach Road #18-04, Singapore 199589. +65 6339 2114.
 Mon-Fri 9am-5pm; Sat 9am-noon.</string>
     <!-- The string values for "Arts" section -->
 
-    <string name="tiong_bahru_title"></string>
-    <string name="tiong_bahru_content"></string>
+    <string name="tiong_bahru_title">Tiong Bahru</string>
+    <string name="tiong_bahru_content">Find new meaning in longstanding places at Tiong Bahru, a district that’s both Singapore’s oldest housing estate and one of its most vibrant creative hubs. This fusion of old and new is best exemplified by the various murals that dot the neighbourhood. These works of street art were painted by contemporary artist Yip Yew Chong, and revolve around scenes from the precinct’s past. The cages depicted in the murals memorialise traditional bird singing corners, where hundreds of bird-lovers would gather to admire prized avian pets.
+
+“Bird Singing Corner” by Yip Yew Chong. 71 Seng Poh Lane, Singapore 160071.
+
+“Home” by Yip Yew Chong. 74 Tiong Poh Road/Eu Chin Street, Singapore 160074.
+
+“Pasar and the Fortune Teller” by Yip Yew Chong. 73 Eng Watt Street, Singapore 160073.</string>
     <string name="chinatown_title">Chinatown</string>
     <string name="chinatown_content">Begin your hunt for Chinatown’s wall murals at Banda Street, along Chinatown Complex. Mural artist Belinda Low’s influences include Van Gogh’s revolutionary style of post-Impressionism, and the resilient spirit of strong women. Many of her pieces include wistful depictions of the pioneers who built our nation, from fishermen and labourers to Samsui women (female migrants from Sanshui District, China, known for their iconic red headscarves).
 
@@ -449,5 +455,13 @@ Fun fact: The mural depicting the elderly washerwoman was repainted by the artis
 “Barber” by Yip Yew Chong. 39 Everton Road, Singapore 089392.
 
 “Provision Shop” by Yip Yew Chong. 8 Spottiswoode Park Road, Singapore 088635.</string>
+    <!-- String values for section titles -->
 
+    <string name="shop_title">Shop</string>
+    <string name="history_title">History</string>
+    <string name="arts_title">Arts</string>
+    <string name="landmarks_title">Landmarks</string>
+    <string name="culture_title">Culture</string>
+    <string name="food_title">Food</string>
+    <string name="dessert_title">Desserts</string>
 </resources>
