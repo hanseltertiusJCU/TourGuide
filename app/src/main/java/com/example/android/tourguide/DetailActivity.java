@@ -21,6 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.locationDetailViewPager);
 
         // Create an adapter to be attached to ViewPager
+        // (todo: we will use if/else or case from the Fragment thing, which decides on which fragments to use)
         DessertsLocationFragmentPagerAdapter locationDetailAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
 
         // Create a int variable position based on the intent from LocationFragment

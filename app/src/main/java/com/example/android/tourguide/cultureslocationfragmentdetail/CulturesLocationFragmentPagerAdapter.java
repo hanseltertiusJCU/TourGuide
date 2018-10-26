@@ -1,12 +1,22 @@
-package com.example.android.tourguide.dessertslocationfragmentdetail;
+package com.example.android.tourguide.cultureslocationfragmentdetail;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class DessertsLocationFragmentPagerAdapter extends FragmentPagerAdapter{
+import com.example.android.tourguide.dessertslocationfragmentdetail.BuburChaChaDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.ChendolDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.ChengTengDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.GulabJamunDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.IceKachangDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.PulutHitamDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.SugeeDetailFragment;
+import com.example.android.tourguide.dessertslocationfragmentdetail.TauHuayDetailFragment;
 
-    public DessertsLocationFragmentPagerAdapter(FragmentManager fm){
+public class CulturesLocationFragmentPagerAdapter extends FragmentPagerAdapter {
+
+
+    public CulturesLocationFragmentPagerAdapter(FragmentManager fm){
         super(fm);
     }
 
@@ -62,4 +72,5 @@ public class DessertsLocationFragmentPagerAdapter extends FragmentPagerAdapter{
     public int getCount() {
         return 8;
     }
+
 }
