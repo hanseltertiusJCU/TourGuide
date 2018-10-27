@@ -14,6 +14,7 @@ import com.example.android.tourguide.cultureslocationfragmentdetail.CulturesLoca
 import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
+import com.example.android.tourguide.naturelocationfragmentdetail.NatureLocationFragmentPagerAdapter;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -52,7 +53,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_landmarks:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new NatureLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_culture:
