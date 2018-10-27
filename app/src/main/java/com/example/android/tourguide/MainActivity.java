@@ -4,6 +4,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -14,6 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.android.tourguide.locationsfragment.ArtsLocationFragment;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
 
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Fragment fragment;
     private Class fragmentClass;
     private NavigationView navigationView;
+    private static boolean RUN_ONCE = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,11 +43,16 @@ public class MainActivity extends AppCompatActivity {
         actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu);
 
+
         navigationView = findViewById(R.id.nav_view);
-        // todo: modify the behaviour so that the default fragment is displayed when opening the app and when leaving the page, still save the existing fragment
+        // todo: modify the behaviour so when leaving the page by clicking up button, still save the existing fragment
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+                // Create a new FragmentManager object
+                FragmentManager fragmentManager;
+
                 // set item as selected to persist highlight
                 menuItem.setChecked(true);
 
@@ -63,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         fragmentClass = DessertsLocationFragment.class;
                         break;
                     case R.id.nav_arts:
-                        fragmentClass = DessertsLocationFragment.class;
+                        fragmentClass = ArtsLocationFragment.class;
                         break;
                     case R.id.nav_landmarks:
                         fragmentClass = DessertsLocationFragment.class;
@@ -77,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_dessert:
                         fragmentClass = DessertsLocationFragment.class;
                         break;
-                    default:
-                        fragmentClass = DessertsLocationFragment.class;
 
                 }
 
@@ -89,13 +95,35 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 // Insert the fragment by replacing any existing fragment
-                FragmentManager fragmentManager = getSupportFragmentManager();
+                fragmentManager = getSupportFragmentManager();
                 fragmentManager.beginTransaction().
                         replace(R.id.content_frame, fragment).commit();
 
                 return true;
             }
         });
+
+        runOnce();
+
+        // if RUN_ONCE = false then we must load the existing fragment after clicking up button
+
+    }
+
+    // A method to detect the first time an Activity is opened
+    private void runOnce(){
+        if(RUN_ONCE){
+            RUN_ONCE = false;
+
+            // If it is first time, that means we check the default
+            // Create a new Menu object by calling getSpecificMenu method
+            Menu menu = getSpecificMenu();
+            // Make sure that the menu is checked on startup
+            menu.getItem(0).setChecked(true);
+            // Display the default fragment on startup
+            FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
+            tx.replace(R.id.content_frame, new DessertsLocationFragment());
+            tx.commit();
+        }
     }
 
     // A method to get item menu (which is then used for getting item id)
@@ -103,92 +131,6 @@ public class MainActivity extends AppCompatActivity {
         Menu menuNav = navigationView.getMenu();
         return menuNav;
     }
-
-//    public long getIdOnMenuItem(MenuItem menuItem){
-//
-//        long id;
-//
-//        switch (menuItem.getItemId()){
-//            case R.id.nav_shop:
-//                id = 0;
-//                break;
-//            case R.id.nav_history:
-//                id = 1;
-//                break;
-//            case R.id.nav_arts:
-//                id = 2;
-//                break;
-//            case R.id.nav_landmarks:
-//                id = 3;
-//                break;
-//            case R.id.nav_culture:
-//                id = 4;
-//                break;
-//            case R.id.nav_food:
-//                id = 5;
-//                break;
-//            case R.id.nav_dessert:
-//                id = 6;
-//                break;
-//            default:
-//                id = 0;
-//        }
-//        return id;
-//    }
-
-//
-//    // todo: modify the behaviour so that the default fragment is displayed and when leaving the page, still save the existing fragment
-//    public void selectDrawerItem(MenuItem menuItem) {
-//        // Add code here to update the UI based on the item selected
-//        // For example, swap UI fragments here (in this case, we use case)
-//        switch (menuItem.getItemId()){
-//            case R.id.nav_shop:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            case R.id.nav_history:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            case R.id.nav_arts:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            case R.id.nav_landmarks:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            case R.id.nav_culture:
-//                fragmentClass = CulturesLocationFragment.class;
-//                break;
-//            case R.id.nav_food:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            case R.id.nav_dessert:
-//                fragmentClass = DessertsLocationFragment.class;
-//                break;
-//            default:
-//                fragmentClass = DessertsLocationFragment.class;
-//
-//        }
-//
-//        try {
-//            fragment = (Fragment) fragmentClass.newInstance();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//        // Insert the fragment by replacing any existing fragment
-//        FragmentManager fragmentManager = getSupportFragmentManager();
-//        fragmentManager.beginTransaction().
-//                replace(R.id.content_frame, fragment).commit();
-//
-//        // set item as selected to persist highlight
-//        menuItem.setChecked(true);
-//        // set action bar title
-//        // setTitle(menuItem.getTitle());
-//        // close drawer when item is tapped
-//        mDrawerLayout.closeDrawers();
-//    }
-
-
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

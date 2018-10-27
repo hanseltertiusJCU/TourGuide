@@ -18,9 +18,9 @@ import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 
-public class CulturesLocationFragment extends Fragment {
+public class ArtsLocationFragment extends Fragment {
 
-    public CulturesLocationFragment(){
+    public ArtsLocationFragment(){
 
     }
 
@@ -31,11 +31,12 @@ public class CulturesLocationFragment extends Fragment {
         // Create ArrayList object that returns Location class
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location(getString(R.string.fengshui_title), getString(R.string.fengshui_content), R.drawable.image_fengshui));
-        locations.add(new Location(getString(R.string.sultan_of_spice_title), getString(R.string.sultan_of_spice_content), R.drawable.image_sultan_of_spice));
-        locations.add(new Location(getString(R.string.india_title), getString(R.string.india_content), R.drawable.image_india));
-        locations.add(new Location(getString(R.string.chinese_title), getString(R.string.chinese_content), R.drawable.image_chinese));
-        locations.add(new Location(getString(R.string.religion_title), getString(R.string.religion_content), R.drawable.image_religion));
+        locations.add(new Location(getString(R.string.tiong_bahru_title), getString(R.string.tiong_bahru_content), R.drawable.image_tiong_bahru));
+        locations.add(new Location(getString(R.string.chinatown_title), getString(R.string.chinatown_content), R.drawable.image_chinatown));
+        locations.add(new Location(getString(R.string.little_india_title), getString(R.string.little_india_content), R.drawable.image_little_india));
+        locations.add(new Location(getString(R.string.macpherson_title), getString(R.string.macpherson_content), R.drawable.image_macpherson));
+        locations.add(new Location(getString(R.string.haji_lane_title), getString(R.string.haji_lane_content), R.drawable.image_haji_lane));
+        locations.add(new Location(getString(R.string.everton_title), getString(R.string.everton_content), R.drawable.image_everton));
 
         // Create LocationAdapter object that set up view
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
@@ -52,7 +53,7 @@ public class CulturesLocationFragment extends Fragment {
                 // Make a new intent
                 Intent locationDetailIntent = new Intent(getActivity(), DetailActivity.class);
                 // Create a menuItem object by finding it based on navigation id
-                MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_culture);
+                MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_arts);
                 // Get the itemId based on MenuItem object
                 int itemId = menuItem.getItemId();
                 // Put extra on intent in order to be able to pass the item position as well as itemId into the specified Activity
@@ -66,5 +67,4 @@ public class CulturesLocationFragment extends Fragment {
 
         return rootView;
     }
-
 }

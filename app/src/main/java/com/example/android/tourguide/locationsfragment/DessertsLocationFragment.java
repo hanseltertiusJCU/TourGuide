@@ -54,10 +54,11 @@ public class DessertsLocationFragment extends Fragment{
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 // Make a new intent
                 Intent locationDetailIntent = new Intent(getActivity(), DetailActivity.class);
-                // Try to replace id
+                // Create a menuItem object by finding it based on navigation id
                 MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_dessert);
+                // Get the itemId based on MenuItem object
                 int itemId = menuItem.getItemId();
-                // Put extra on intent in order to be able to pass the item position
+                // Put extra on intent in order to be able to pass the item position as well as itemId into the specified Activity
                 locationDetailIntent.putExtra("ItemPosition", position);
                 locationDetailIntent.putExtra("ItemId", itemId);
 

@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
+import com.example.android.tourguide.artslocationfragmentdetail.ArtsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.cultureslocationfragmentdetail.CulturesLocationFragmentPagerAdapter;
 import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
@@ -29,13 +30,14 @@ public class DetailActivity extends AppCompatActivity {
         // Get the intent
         Intent intent = getIntent();
 
-        // Create a int variable position based on the intent from LocationFragment
+        // Create an int variable position based on the intent from LocationFragment
         int position = intent.getIntExtra("ItemPosition", 0);
 
+        // Create an int variable itemId based on the intent from LocationFragment (maybe the itemid is useful when click up button so that it can go back to the previous itemid)
         int itemId = intent.getIntExtra("ItemId", 0);
 
-        // Create an adapter to be attached to ViewPager
-        // (todo: we will use if/else or case from the Fragment thing, which decides on which fragments to use)
+        // Check the itemId to display the right FragmentPagerAdapter object,
+        // which uses polymorphism in the process and then attached to ViewPager
         switch (itemId){
             case R.id.nav_shop:
                 fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
@@ -46,7 +48,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_arts:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new ArtsLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_landmarks:
@@ -70,7 +72,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
         }
 
-        // Set the fragment from locationDetailAdapter based on position of ArrayList
+        // Set the fragment from fragmentPagerAdapter object based on position of ArrayList
         viewPager.setCurrentItem(position);
 
         // Setup toolbar
