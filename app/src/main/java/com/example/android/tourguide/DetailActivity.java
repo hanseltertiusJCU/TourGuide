@@ -15,6 +15,7 @@ import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLoca
 import com.example.android.tourguide.foodslocationfragmentdetail.FoodLocationFragmentPagerAdapter;
 import com.example.android.tourguide.historylocationfragmentdetail.HistoryLocationFragmentPagerAdapter;
 import com.example.android.tourguide.naturelocationfragmentdetail.NatureLocationFragmentPagerAdapter;
+import com.example.android.tourguide.shopslocationfragmentdetail.ShopsLocationFragmentPagerAdapter;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -41,7 +42,7 @@ public class DetailActivity extends AppCompatActivity {
         // which uses polymorphism in the process and then attached to ViewPager
         switch (itemId){
             case R.id.nav_shop:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new ShopsLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_history:
@@ -73,7 +74,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             default:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new ShopsLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
         }
 

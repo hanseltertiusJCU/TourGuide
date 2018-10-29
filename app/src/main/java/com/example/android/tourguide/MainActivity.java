@@ -20,6 +20,7 @@ import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
 import com.example.android.tourguide.locationsfragment.FoodLocationFragment;
 import com.example.android.tourguide.locationsfragment.HistoryLocationFragment;
 import com.example.android.tourguide.locationsfragment.NatureLocationFragment;
+import com.example.android.tourguide.locationsfragment.ShopsLocationFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 // For example, swap UI fragments here (in this case, we use case)
                 switch (menuItem.getItemId()){
                     case R.id.nav_shop:
-                        fragmentClass = DessertsLocationFragment.class;
+                        fragmentClass = ShopsLocationFragment.class;
                         break;
                     case R.id.nav_history:
                         fragmentClass = HistoryLocationFragment.class;
@@ -126,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
             menu.getItem(0).setChecked(true);
             // Display the default fragment on startup
             FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
-            tx.replace(R.id.content_frame, new DessertsLocationFragment());
+            tx.replace(R.id.content_frame, new ShopsLocationFragment());
             tx.commit();
         }
     }
