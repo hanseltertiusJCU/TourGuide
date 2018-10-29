@@ -12,6 +12,7 @@ import android.util.Log;
 import com.example.android.tourguide.artslocationfragmentdetail.ArtsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.cultureslocationfragmentdetail.CulturesLocationFragmentPagerAdapter;
 import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLocationFragmentPagerAdapter;
+import com.example.android.tourguide.historylocationfragmentdetail.HistoryLocationFragmentPagerAdapter;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
 import com.example.android.tourguide.naturelocationfragmentdetail.NatureLocationFragmentPagerAdapter;
@@ -45,7 +46,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_history:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new HistoryLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_arts:

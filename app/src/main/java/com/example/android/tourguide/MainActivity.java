@@ -18,6 +18,7 @@ import android.view.View;
 import com.example.android.tourguide.locationsfragment.ArtsLocationFragment;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
+import com.example.android.tourguide.locationsfragment.HistoryLocationFragment;
 import com.example.android.tourguide.locationsfragment.NatureLocationFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         fragmentClass = DessertsLocationFragment.class;
                         break;
                     case R.id.nav_history:
-                        fragmentClass = DessertsLocationFragment.class;
+                        fragmentClass = HistoryLocationFragment.class;
                         break;
                     case R.id.nav_arts:
                         fragmentClass = ArtsLocationFragment.class;
