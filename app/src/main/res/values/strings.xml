@@ -252,7 +252,7 @@ Maxwell Food Centre. 1 Kadayanallur Street, Singapore 069184.
 Daily 8-2am.</string>
 
     <string name="lau_pa_sat_title">Lau Pa Sat</string>
-    <string name="lau_pa_sat_content">This historic market was designed by George Coleman in the 1830s, and has since been carefully restored. Home to local favourites and international cuisines like North Indian, Korean, Filipino, Japanese and Vietnamese, Lau Pa Sat is the go-to location for good hawker fare in the Central Business District. Singapore&#39;s famous Satay Street runs parallel to Lau Pa Sat, where Stalls 7 and 8 arguably sell the best rendition of the street&#39;s namesake grilled beef and chicken skewers (satay).
+    <string name="lau_pa_sat_content">This historic market was designed by George Coleman in the 1830s, and has since been carefully restored. Home to local favourites and international cuisines like North Indian, Korean, Filipino, Japanese and Vietnamese, Lau Pa Sat is the go-to location for good hawker fare in the Central Business District. Singapore\'s famous Satay Street runs parallel to Lau Pa Sat, where Stalls 7 and 8 arguably sell the best rendition of the street\'s namesake grilled beef and chicken skewers (satay).
 
 Near Raffles Place, Tanjong Pagar, Telok Ayer and Downtown MRT stations.
 
@@ -460,7 +460,8 @@ Fun fact: The mural depicting the elderly washerwoman was repainted by the artis
     <string name="shop_title">Shop</string>
     <string name="history_title">History</string>
     <string name="arts_title">Arts</string>
-    <string name="landmarks_title">Landmarks</string>
+    <string name="architecture_title">Architecture</string>
+    <string name="nature_title">Nature</string>
     <string name="culture_title">Culture</string>
     <string name="food_title">Food</string>
     <string name="dessert_title">Desserts</string>

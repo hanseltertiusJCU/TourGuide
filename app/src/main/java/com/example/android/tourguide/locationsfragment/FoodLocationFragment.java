@@ -18,9 +18,9 @@ import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 
-public class NatureLocationFragment extends Fragment{
+public class FoodLocationFragment extends Fragment {
 
-    public NatureLocationFragment(){
+    public FoodLocationFragment(){
 
     }
 
@@ -31,12 +31,15 @@ public class NatureLocationFragment extends Fragment{
         // Create ArrayList object that returns Location class
         final ArrayList<Location> locations = new ArrayList<Location>();
 
-        locations.add(new Location(getString(R.string.botanic_gardens_title), getString(R.string.botanic_gardens_content), R.drawable.image_botanic_gardens));
-        locations.add(new Location(getString(R.string.gardens_by_the_bay_title), getString(R.string.gardens_by_the_bay_content), R.drawable.image_gardens_by_the_bay));
-        locations.add(new Location(getString(R.string.southern_ridges_title), getString(R.string.southern_ridges_content), R.drawable.image_southern_ridges));
-        locations.add(new Location(getString(R.string.segway_eco_adventure_title), getString(R.string.segway_eco_adventure_content), R.drawable.image_segway_eco_adventure));
-        locations.add(new Location(getString(R.string.pulau_ubin_title), getString(R.string.pulau_ubin_content), R.drawable.image_pulau_ubin));
-        locations.add(new Location(getString(R.string.sungei_buloh_title), getString(R.string.sungei_buloh_content), R.drawable.image_sungei_buloh));
+        locations.add(new Location(getString(R.string.maxwell_food_title), getString(R.string.maxwell_food_content), R.drawable.image_maxwell));
+        locations.add(new Location(getString(R.string.lau_pa_sat_title), getString(R.string.lau_pa_sat_content), R.drawable.image_lau_pa_sat));
+        locations.add(new Location(getString(R.string.tekka_title), getString(R.string.tekka_content), R.drawable.image_tekka));
+        locations.add(new Location(getString(R.string.tiong_bahru_market_title), getString(R.string.tiong_bahru_market_content), R.drawable.image_tiong_bahru_market));
+        locations.add(new Location(getString(R.string.abc_food_centre_title), getString(R.string.abc_food_centre_content), R.drawable.image_abc_food_centre));
+        locations.add(new Location(getString(R.string.adam_road_title), getString(R.string.adam_road_content), R.drawable.image_adam_road));
+        locations.add(new Location(getString(R.string.chomp_chomp_title), getString(R.string.chomp_chomp_content), R.drawable.image_chomp_chomp));
+        locations.add(new Location(getString(R.string.golden_mile_title), getString(R.string.golden_mile_content), R.drawable.image_golden_mile));
+        locations.add(new Location(getString(R.string.bedok_marketplace_title), getString(R.string.bedok_marketplace_content), R.drawable.image_bedok_marketplace));
 
         // Create LocationAdapter object that set up view
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
@@ -53,7 +56,7 @@ public class NatureLocationFragment extends Fragment{
                 // Make a new intent
                 Intent locationDetailIntent = new Intent(getActivity(), DetailActivity.class);
                 // Create a menuItem object by finding it based on navigation id
-                MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_nature);
+                MenuItem menuItem = ((MainActivity) getActivity()).getSpecificMenu().findItem(R.id.nav_food);
                 // Get the itemId based on MenuItem object
                 int itemId = menuItem.getItemId();
                 // Put extra on intent in order to be able to pass the item position as well as itemId into the specified Activity

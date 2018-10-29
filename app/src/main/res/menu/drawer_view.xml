@@ -11,8 +11,11 @@
             android:id="@+id/nav_arts"
             android:title="@string/arts_title" />
         <item
-            android:id="@+id/nav_landmarks"
-            android:title="@string/landmarks_title" />
+            android:id="@+id/nav_architecture"
+            android:title="@string/architecture_title" />
+        <item
+            android:id="@+id/nav_nature"
+            android:title="@string/nature_title" />
         <item
             android:id="@+id/nav_culture"
             android:title="@string/culture_title" />

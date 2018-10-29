@@ -1,6 +1,5 @@
 package com.example.android.tourguide;
 
-import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -13,11 +12,11 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.example.android.tourguide.locationsfragment.ArtsLocationFragment;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
+import com.example.android.tourguide.locationsfragment.FoodLocationFragment;
 import com.example.android.tourguide.locationsfragment.HistoryLocationFragment;
 import com.example.android.tourguide.locationsfragment.NatureLocationFragment;
 
@@ -75,14 +74,17 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_arts:
                         fragmentClass = ArtsLocationFragment.class;
                         break;
-                    case R.id.nav_landmarks:
+                    case R.id.nav_architecture:
+                        fragmentClass = ArtsLocationFragment.class;
+                        break;
+                    case R.id.nav_nature:
                         fragmentClass = NatureLocationFragment.class;
                         break;
                     case R.id.nav_culture:
                         fragmentClass = CulturesLocationFragment.class;
                         break;
                     case R.id.nav_food:
-                        fragmentClass = DessertsLocationFragment.class;
+                        fragmentClass = FoodLocationFragment.class;
                         break;
                     case R.id.nav_dessert:
                         fragmentClass = DessertsLocationFragment.class;

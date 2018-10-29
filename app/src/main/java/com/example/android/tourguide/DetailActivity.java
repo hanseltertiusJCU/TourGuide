@@ -7,14 +7,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 
 import com.example.android.tourguide.artslocationfragmentdetail.ArtsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.cultureslocationfragmentdetail.CulturesLocationFragmentPagerAdapter;
 import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLocationFragmentPagerAdapter;
+import com.example.android.tourguide.foodslocationfragmentdetail.FoodLocationFragmentPagerAdapter;
 import com.example.android.tourguide.historylocationfragmentdetail.HistoryLocationFragmentPagerAdapter;
-import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
-import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
 import com.example.android.tourguide.naturelocationfragmentdetail.NatureLocationFragmentPagerAdapter;
 
 public class DetailActivity extends AppCompatActivity {
@@ -53,7 +51,11 @@ public class DetailActivity extends AppCompatActivity {
                 fragmentPagerAdapter = new ArtsLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
-            case R.id.nav_landmarks:
+            case R.id.nav_architecture:
+                fragmentPagerAdapter = new ArtsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                viewPager.setAdapter(fragmentPagerAdapter);
+                break;
+            case R.id.nav_nature:
                 fragmentPagerAdapter = new NatureLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
@@ -62,7 +64,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_food:
-                fragmentPagerAdapter = new DessertsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new FoodLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_dessert:
