@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+import com.example.android.tourguide.architecturelocationfragmentdetail.ArchitectureLocationFragmentPagerAdapter;
 import com.example.android.tourguide.artslocationfragmentdetail.ArtsLocationFragmentPagerAdapter;
 import com.example.android.tourguide.cultureslocationfragmentdetail.CulturesLocationFragmentPagerAdapter;
 import com.example.android.tourguide.dessertslocationfragmentdetail.DessertsLocationFragmentPagerAdapter;
@@ -52,7 +53,7 @@ public class DetailActivity extends AppCompatActivity {
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_architecture:
-                fragmentPagerAdapter = new ArtsLocationFragmentPagerAdapter(getSupportFragmentManager());
+                fragmentPagerAdapter = new ArchitectureLocationFragmentPagerAdapter(getSupportFragmentManager());
                 viewPager.setAdapter(fragmentPagerAdapter);
                 break;
             case R.id.nav_nature:

@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.android.tourguide.locationsfragment.ArchitectureLocationFragment;
 import com.example.android.tourguide.locationsfragment.ArtsLocationFragment;
 import com.example.android.tourguide.locationsfragment.CulturesLocationFragment;
 import com.example.android.tourguide.locationsfragment.DessertsLocationFragment;
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                         fragmentClass = ArtsLocationFragment.class;
                         break;
                     case R.id.nav_architecture:
-                        fragmentClass = ArtsLocationFragment.class;
+                        fragmentClass = ArchitectureLocationFragment.class;
                         break;
                     case R.id.nav_nature:
                         fragmentClass = NatureLocationFragment.class;
