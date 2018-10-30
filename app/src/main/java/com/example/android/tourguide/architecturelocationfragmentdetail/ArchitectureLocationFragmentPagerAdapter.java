@@ -4,10 +4,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+
 public class ArchitectureLocationFragmentPagerAdapter extends FragmentPagerAdapter {
     public ArchitectureLocationFragmentPagerAdapter(FragmentManager fm){
         super(fm);
     }
+
 
     /**
      * Get the specific item in Fragment based on the position of list item

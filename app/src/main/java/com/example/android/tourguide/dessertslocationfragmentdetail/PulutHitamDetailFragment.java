@@ -7,8 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.example.android.tourguide.DetailActivity;
 import com.example.android.tourguide.Location;
 import com.example.android.tourguide.LocationDetailAdapter;
+import com.example.android.tourguide.MainActivity;
 import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
@@ -17,6 +19,13 @@ public class PulutHitamDetailFragment extends Fragment {
 
     // Constructor for calling an object
     public PulutHitamDetailFragment(){
+
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        ((DetailActivity) getActivity()).setActionBarTitle(getString(R.string.pulut_hitam_title));
 
     }
 
@@ -42,5 +51,14 @@ public class PulutHitamDetailFragment extends Fragment {
 
         return rootView;
     }
+
+//    public void onResume(){
+//        super.onResume();
+//
+//        // Set title bar
+//        ((DetailActivity) getActivity())
+//                .setActionBarTitle(getString(R.string.pulut_hitam_title));
+//
+//    }
 
 }

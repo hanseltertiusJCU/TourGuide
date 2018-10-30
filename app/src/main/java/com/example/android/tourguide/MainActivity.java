@@ -132,6 +132,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    // A method to set action bar title
+    public void setActionBarTitle(String title) {
+        getSupportActionBar().setTitle(title);
+    }
+
     // A method to get item menu (which is then used for getting item id)
     public Menu getSpecificMenu(){
         Menu menuNav = navigationView.getMenu();
@@ -146,5 +151,5 @@ public class MainActivity extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    };
+    }
 }

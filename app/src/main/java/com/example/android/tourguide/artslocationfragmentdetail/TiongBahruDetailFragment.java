@@ -8,8 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.example.android.tourguide.DetailActivity;
 import com.example.android.tourguide.Location;
 import com.example.android.tourguide.LocationDetailAdapter;
+import com.example.android.tourguide.MainActivity;
 import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
@@ -42,4 +44,13 @@ public class TiongBahruDetailFragment extends Fragment {
 
         return rootView;
     }
+
+//    public void onResume(){
+//        super.onResume();
+//
+//        // Set title bar
+//        ((DetailActivity) getActivity())
+//                .setActionBarTitle(getString(R.string.tiong_bahru_title));
+//
+//    }
 }

@@ -69,4 +69,13 @@ public class DessertsLocationFragment extends Fragment{
 
         return rootView;
     }
+
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((MainActivity) getActivity())
+                .setActionBarTitle(getString(R.string.dessert_title));
+
+    }
 }

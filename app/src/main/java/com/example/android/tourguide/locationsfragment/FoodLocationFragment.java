@@ -70,4 +70,13 @@ public class FoodLocationFragment extends Fragment {
 
         return rootView;
     }
+
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((MainActivity) getActivity())
+                .setActionBarTitle(getString(R.string.food_title));
+
+    }
 }
