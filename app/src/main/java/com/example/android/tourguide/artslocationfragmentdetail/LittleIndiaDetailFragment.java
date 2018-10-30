@@ -43,12 +43,12 @@ public class LittleIndiaDetailFragment extends Fragment {
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.little_india_title));
-//
-//    }
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((DetailActivity) getActivity())
+                .setActionBarTitle(getString(R.string.little_india_title));
+
+    }
 }

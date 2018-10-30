@@ -44,12 +44,12 @@ public class HajiLaneDetailFragment extends Fragment{
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.haji_lane_title));
-//
-//    }
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((DetailActivity) getActivity())
+                .setActionBarTitle(getString(R.string.haji_lane_title));
+
+    }
 }

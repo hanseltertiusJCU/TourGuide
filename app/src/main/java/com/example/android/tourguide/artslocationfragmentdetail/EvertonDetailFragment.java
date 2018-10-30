@@ -44,13 +44,13 @@ public class EvertonDetailFragment extends Fragment {
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.everton_title));
-//
-//    }
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((DetailActivity) getActivity())
+                .setActionBarTitle(getString(R.string.everton_title));
+
+    }
 
 }

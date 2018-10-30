@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="HorizontalScroll">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
 </resources>

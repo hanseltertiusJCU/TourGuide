@@ -44,13 +44,13 @@ public class ChinatownDetailFragment extends Fragment {
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.chinatown_title));
-//
-//    }
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((DetailActivity) getActivity())
+                .setActionBarTitle(getString(R.string.chinatown_title));
+
+    }
 
 }

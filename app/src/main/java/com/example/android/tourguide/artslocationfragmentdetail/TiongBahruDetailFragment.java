@@ -45,12 +45,12 @@ public class TiongBahruDetailFragment extends Fragment {
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.tiong_bahru_title));
-//
-//    }
+    public void onResume(){
+        super.onResume();
+
+        // Set title bar
+        ((DetailActivity) getActivity())
+                .setActionBarTitle(getString(R.string.tiong_bahru_title));
+
+    }
 }
