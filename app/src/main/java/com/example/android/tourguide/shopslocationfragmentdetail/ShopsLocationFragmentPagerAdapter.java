@@ -4,13 +4,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.android.tourguide.naturelocationfragmentdetail.BotanicGardensDetailFragment;
-import com.example.android.tourguide.naturelocationfragmentdetail.GardensByTheBayDetailFragment;
-import com.example.android.tourguide.naturelocationfragmentdetail.PulauUbinDetailFragment;
-import com.example.android.tourguide.naturelocationfragmentdetail.SegwayEcoAdventureDetailFragment;
-import com.example.android.tourguide.naturelocationfragmentdetail.SouthernRidgesDetailFragment;
-import com.example.android.tourguide.naturelocationfragmentdetail.SungeiBulohDetailFragment;
-
 public class ShopsLocationFragmentPagerAdapter extends FragmentPagerAdapter {
 
     public ShopsLocationFragmentPagerAdapter(FragmentManager fm){

@@ -2,6 +2,9 @@ package com.example.android.tourguide.dessertslocationfragmentdetail;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,13 +22,6 @@ public class PulutHitamDetailFragment extends Fragment {
 
     // Constructor for calling an object
     public PulutHitamDetailFragment(){
-
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        ((DetailActivity) getActivity()).setActionBarTitle(getString(R.string.pulut_hitam_title));
 
     }
 
@@ -51,14 +47,5 @@ public class PulutHitamDetailFragment extends Fragment {
 
         return rootView;
     }
-
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.pulut_hitam_title));
-//
-//    }
 
 }

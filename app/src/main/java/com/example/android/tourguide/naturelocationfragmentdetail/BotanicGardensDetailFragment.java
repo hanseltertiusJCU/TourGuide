@@ -1,7 +1,11 @@
 package com.example.android.tourguide.naturelocationfragmentdetail;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +24,7 @@ public class BotanicGardensDetailFragment extends Fragment {
     public BotanicGardensDetailFragment(){
 
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -43,14 +48,5 @@ public class BotanicGardensDetailFragment extends Fragment {
 
         return rootView;
     }
-
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.botanic_gardens_title));
-//
-//    }
 
 }
