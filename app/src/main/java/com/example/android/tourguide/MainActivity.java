@@ -1,5 +1,6 @@
 package com.example.android.tourguide;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.support.design.widget.NavigationView;
@@ -51,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         navigationView = findViewById(R.id.nav_view);
-        // todo: modify the behaviour so when leaving the page by clicking up button, still save the existing fragment
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -114,7 +114,11 @@ public class MainActivity extends AppCompatActivity {
 
         runOnce();
 
-        // if RUN_ONCE = false then we must load the existing fragment after clicking up button
+        // load the existing fragment after clicking up/back button
+        if(RUN_ONCE = false){
+            Intent i = new Intent(this, DetailActivity.class);
+            startActivityForResult(i, 1);
+        }
 
     }
 
@@ -146,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
         return menuNav;
     }
 
+    // Opens up the nav drawer menu
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -165,6 +170,17 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "landscape", Toast.LENGTH_SHORT).show();
         } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT){
             Toast.makeText(this, "portrait", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    // Get the intent itemId to display the activity result
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if(resultCode == RESULT_OK) {
+                // Set the result by getting the intent from DetailActivity
+                getIntent().getStringExtra("ItemIdMenu");
+            }
         }
     }
 }

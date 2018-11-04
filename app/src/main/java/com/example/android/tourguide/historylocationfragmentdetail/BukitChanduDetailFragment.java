@@ -46,12 +46,4 @@ public class BukitChanduDetailFragment extends Fragment {
         return rootView;
     }
 
-//    public void onResume(){
-//        super.onResume();
-//
-//        // Set title bar
-//        ((DetailActivity) getActivity())
-//                .setActionBarTitle(getString(R.string.bukit_chandu_title));
-//
-//    }
 }

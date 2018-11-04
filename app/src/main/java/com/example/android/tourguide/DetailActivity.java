@@ -2,12 +2,14 @@ package com.example.android.tourguide;
 
 import android.content.Intent;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.android.tourguide.architecturelocationfragmentdetail.ArchitectureLocationFragmentPagerAdapter;
@@ -117,6 +119,7 @@ public class DetailActivity extends AppCompatActivity {
         viewPager.addOnPageChangeListener(pageChangeListener);
         // Call the method onPageSelected in order to initiate
         pageChangeListener.onPageSelected(position);
+
     }
 
     /**
@@ -269,6 +272,27 @@ public class DetailActivity extends AppCompatActivity {
                 }
                 break;
         }
+    }
+
+    // Navigate up to parent activity while at the same time passing the itemId into it
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    // Set the activity result when pressed 'back' button
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent();
+        i.putExtra("ItemIdMenu", itemId);
+        setResult(RESULT_OK, i);
+        finish();
     }
 
 }
