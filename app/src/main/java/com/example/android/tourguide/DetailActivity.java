@@ -91,6 +91,7 @@ public class DetailActivity extends AppCompatActivity {
         // Setup up button view
         ActionBar actionbar = getSupportActionBar();
         actionbar.setDisplayHomeAsUpEnabled(true);
+        actionbar.setHomeAsUpIndicator(R.drawable.ic_arrow);
 
         // Set the fragment from fragmentPagerAdapter object based on position of ArrayList
         viewPager.setCurrentItem(position);
