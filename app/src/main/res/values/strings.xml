@@ -224,7 +224,7 @@ Where to get your fix: A dedicated dessert stall housed within the popular Newto
 Newton Food Centre. 500 Clemenceau Avenue North #01-05, Singapore 229495. +65 8157 1905.
 Daily 11am-11pm.</string>
     <string name="bubur_chacha_title">Bubur Cha Cha</string>
-    <string name="bubur_chacha_content">This vibrant-looking Peranakan* dessert is made with coloured translucent tapioca jelly cubes in a fresh coconut milk soup, and accompanied by steamed sweet potato. There are several variations that add a range of ingredients such as agar agar (jelly), jackfruit and sago into the mix.
+    <string name="bubur_chacha_content">This vibrant-looking Peranakan* dessert is made with coloured translucent tapioca jelly cubes in a fresh coconut milk soup, and accompanied by steamed sweet potato. There are several variations that add a range of ingredients such as agar-agar (jelly), jackfruit and sago into the mix.
 
 Where to get your fix: A laidback eatery that serves up authentic Peranakan fare, PeraMakan is a great option if you’d like to deepen your understanding of nonya culinary tradition.
 
@@ -465,4 +465,270 @@ Fun fact: The mural depicting the elderly washerwoman was repainted by the artis
     <string name="culture_title">Culture</string>
     <string name="food_title">Food</string>
     <string name="dessert_title">Desserts</string>
+
+    <!-- String values for architecture fragment intent -->
+    <string name="chijmes_phone">+65 6337 7810</string>
+    <string name="chijmes_website">http://chijmes.com.sg/</string>
+    <string name="chijmes_location">30 Victoria Street, Singapore 18796.</string>
+
+    <string name="esplanade_phone">+65 6828 8377</string>
+    <string name="esplanade_website">http://www.esplanade.com/</string>
+    <string name="esplanade_location">1 Esplanade Drive, Singapore 038981</string>
+
+    <string name="merlion_phone">+65 6736 6622</string>
+    <string name="merlion_website">https://www.visitsingapore.com/see-do-singapore/recreation-leisure/viewpoints/merlion-park/</string>
+    <string name="merlion_location">One Fullerton, Singapore 049213.</string>
+
+    <string name="singapore_flyer_phone">Singapore Flyer</string>
+    <string name="singapore_flyer_website">Standing at 165 metres above ground is Asia’s largest observation wheel, the Singapore Flyer. Launched in 2008, the wheel is a favourite tourist attraction due to its vantage point offering stunning panoramic views of Marina Bay and th­e city. Over the years, the Singapore Flyer has also become a significant feature in the backdrop of the FORMULA ONE Singapore Grand Prix Marina Bay Street Circuit.
+
+Singapore Flyer. 30 Raffles Avenue, Singapore 039803.
+Daily 8.30am-10.30pm.</string>
+    <string name="singapore_flyer_location">30 Raffles Avenue, Singapore 039803.</string>
+
+    <string name="old_parliament_phone">+65 6332 6900</string>
+    <string name="old_parliament_website">https://www.theartshouse.sg/</string>
+    <string name="old_parliament_location">1 Old Parliament Lane, Singapore 179429.</string>
+
+    <string name="national_gallery_phone">+65 6271 7000</string>
+    <string name="national_gallery_website">https://www.nationalgallery.sg/</string>
+    <string name="national_gallery_location">1 Supreme Court Lane, Singapore 178879.</string>
+
+    <string name="istana_phone">+65 6904 4289</string>
+    <string name="istana_website">https://www.istana.gov.sg/</string>
+    <string name="istana_location">Orchard Road, Singapore 238823.</string>
+
+    <string name="fullerton_phone">+65 6733 8388</string>
+    <string name="fullerton_website">https://www.fullertonhotels.com/the-fullerton-hotel</string>
+    <string name="fullerton_location">1 Fullerton Square, Singapore 049178</string>
+
+    <!-- Need to find dummy phone number for helix bridge -->
+    <string name="helix_bridge_phone">Helix Bridge</string>
+    <string name="helix_bridge_website">http://eresources.nlb.gov.sg/infopedia/articles/SIP_1045_2011-06-30.html</string>
+    <string name="helix_bridge_location">Bayfront Avenue, Singapore 038981.</string>
+
+    <string name="parkview_phone">+65 6396 4400</string>
+    <string name="parkview_website">http://parkviewsquare.com/</string>
+    <string name="parkview_location">600 North Bridge Road, Singapore 188778.</string>
+
+    <string name="cenotaph_phone">+65 6736 6622</string>
+    <string name="cenotaph_website">https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/esplanade-park</string>
+    <string name="cenotaph_location">Connaught Drive, Singapore 179682.</string>
+
+    <string name="marina_bay_phone">+65 6688 8888</string>
+    <string name="marina_bay_website">https://id.marinabaysands.com/</string>
+    <string name="marina_bay_location">10 Bayfront Ave, Singapore 01895.10 Bayfront Ave, Singapore 01895</string>
+
+    <!-- String values for nature fragment intent -->
+    <string name="botanic_gardens_phone">+65 6411 5592</string>
+    <string name="botanic_gardens_website">https://www.nparks.gov.sg/sbg</string>
+    <string name="botanic_gardens_location">1 Cluny Road, Singapore 259569</string>
+
+    <string name="gardens_by_the_bay_phone">+65 6420 6848</string>
+    <string name="gardens_by_the_bay_website">http://www.gardensbythebay.com.sg/en.html</string>
+    <string name="gardens_by_the_bay_location">18 Marina Gardens Drive, Singapore 018953</string>
+
+    <string name="southern_ridges_phone">+65 6471 5601</string>
+    <string name="southern_ridges_website">https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/the-southern-ridges</string>
+    <string name="southern_ridges_location">Henderson Road, Mount Faber Park, Telok Blangah Hill Park, Singapore 099203</string>
+
+    <string name="segway_eco_adventure_phone">+65 9825 4066</string>
+    <string name="segway_eco_adventure_website">http://www.segwaytours.com.sg/tours/eco-adventure-plus</string>
+    <string name="segway_eco_adventure_location">50 Beach View, Singapore 098604</string>
+
+    <string name="pulau_ubin_phone">+65 6542 4108</string>
+    <string name="pulau_ubin_website">https://www.nparks.gov.sg/pulau-ubin</string>
+    <string name="pulau_ubin_location">Pulau Ubin, Singapore 508329</string>
+
+    <string name="sungei_buloh_phone">+65 6794 1401</string>
+    <string name="sungei_buloh_website">https://www.nparks.gov.sg/sbwr</string>
+    <string name="sungei_buloh_location">301 Neo Tiew Crescent, Singapore 718925</string>
+
+    <!-- String values for shop fragment intent -->
+    <!-- The string values for "Shop at the Airport" section -->
+
+    <string name="shilla_phone">+65 6713 5700</string>
+    <string name="shilla_website">http://sg.shilladutyfree.com/en/</string>
+    <string name="shilla_location">80 Airport Boulevard, #03&#8211;108, Changi Airport Terminal 1, SINGAPORE 819642</string>
+
+    <string name="gassan_phone">+65 6214 9470</string>
+    <string name="gassan_website">https://www.gassan.com/en/gassan-rolex-boutique-singapore</string>
+    <string name="gassan_location">Terminal 1 Central, 80 Airport Boulevard 819663 Singapore Singapore</string>
+
+    <string name="dfs_wines_phone">+65 6891 9168</string>
+    <string name="dfs_wines_website">https://www.dfs.com/en/singapore/stores/dfs-singapore-changi-airport</string>
+    <string name="dfs_wines_location">65 Airport Blvd, Singapore 819663</string>
+
+    <!-- The string values for "Shop at the Cruise Centre" section -->
+
+    <string name="dfs_wines_tanah_merah_phone">+65 6785 9122</string>
+    <string name="dfs_wines_tanah_merah_website">https://www.dfs.com/en/singapore/stores/dfs-singapore-cruise-centre-tanah-merah</string>
+    <string name="dfs_wines_tanah_merah_location">Singapore Cruise Centre, Tanah Merah Ferry Terminal, 50 Tanah Merah Ferry Road, Singapore, 498833</string>
+
+    <string name="dfs_wines_harbourfront_phone">+65 6271 3861</string>
+    <string name="dfs_wines_harbourfront_website">https://www.dfs.com/en/singapore/stores/dfs-singapore-cruise-centre-harbourfront</string>
+    <string name="dfs_wines_harbourfront_location">Singapore Cruise Centre, Harbourfront Centre, 1 Maritime Square #01&#8211;17/20, Singapore 099253</string>
+
+    <!-- The string values for "Shop at the heart of the city" section -->
+
+    <string name="t_galleria_phone">+65 6229 8100</string>
+    <string name="t_galleria_website">https://www.dfs.com/en/singapore/stores/t-galleria-by-dfs-singapore</string>
+    <string name="t_galleria_location">25 Scotts Road, Singapore 228220</string>
+
+    <string name="tangs_phone">+65 6737 5500</string>
+    <string name="tangs_website">https://www.tangs.com/</string>
+    <string name="tangs_location">310 Orchard Rd, Singapore 238864</string>
+
+    <!-- String values for dessert fragment intent -->
+    <string name="chendol_phone">+65 8748 7590</string>
+    <string name="chendol_website">https://www.thebestsingapore.com/best-place/chinatown-complex-food-centre/</string>
+    <string name="chendol_location">335 Smith Street #02&#8211;008, Singapore 050335. </string>
+
+    <string name="tau_huay_phone">+65 6745 5682</string>
+    <string name="tau_huay_website">https://www.burpple.com/fZw8TQW3</string>
+    <string name="tau_huay_location">Yong He Eating House. 458 Geylang Road, Singapore 389417</string>
+
+    <string name="pulut_hitam_phone">+65 6733 2225</string>
+    <string name="pulut_hitam_website">http://www.singapore-guide.com/food-dining/tekka-centre.htm</string>
+    <string name="pulut_hitam_location">665 Buffalo Road #01&#8211;221, Singapore 210665. </string>
+
+    <!-- Need to make dummy data for ABC Food Centre phone -->
+    <string name="ice_kachang_phone">Ice Kachang</string>
+    <string name="ice_kachang_website">http://danielfooddiary.com/2017/09/16/abcfoodcentre/</string>
+    <string name="ice_kachang_location">6 Jalan Bukit Merah #01&#8211;21, Singapore 150006.</string>
+
+    <string name="gulab_jamun_phone">+65 6293 8682</string>
+    <string name="gulab_jamun_website">http://www.thebananaleafapolo.com/</string>
+    <string name="gulab_jamun_location">54 Race Course Road, Singapore 218564.</string>
+
+    <string name="cheng_teng_phone">+65 8157 1905</string>
+    <string name="cheng_teng_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d804587-Reviews-Newton_Food_Centre-Singapore.html</string>
+    <string name="cheng_teng_location">500 Clemenceau Avenue North #01&#8211;05, Singapore 229495</string>
+
+    <string name="bubur_chacha_phone">+65 6377 2829</string>
+    <string name="bubur_chacha_website">http://peramakan.com/</string>
+    <string name="bubur_chacha_location">10 Bukit Chermin Road Level 3, Singapore 109918</string>
+
+    <string name="sugee_phone">+65 6348 0327</string>
+    <string name="sugee_website">http://www.quentins.com.sg/menu</string>
+    <string name="sugee_location">139 Ceylon Road, Singapore 429744</string>
+
+    <!-- String values for food fragment intent -->
+
+    <!-- The string values for "Foods in Central" section -->
+
+    <string name="maxwell_food_phone">+65 6225 5632</string>
+    <string name="maxwell_food_website">https://www.tripadvisor.com/Attraction_Review-g294265-d13078277-Reviews-Maxwell_Food_Centre-Singapore.html</string>
+    <string name="maxwell_food_location">1 Kadayanallur Street, Singapore 069184</string>
+
+    <string name="lau_pa_sat_phone">+65 6220 2138</string>
+    <string name="lau_pa_sat_website">http://www.laupasat.biz/</string>
+    <string name="lau_pa_sat_locaton">Lau Pa Sat. 18 Raffles Quay, Singapore 048582</string>
+
+    <!-- Need dummy data for tekka centre phone -->
+    <string name="tekka_phone">Tekka Centre</string>
+    <string name="tekka_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d1146922-Reviews-Tekka_Centre-Singapore.html</string>
+    <string name="tekka_location">60 Bukit Timah Road, Singapore 229900</string>
+    <!-- The string values for "Foods in West" section -->
+
+    <string name="tiong_bahru_market_phone">+65 6438 4380</string>
+    <string name="tiong_bahru_market_website">http://tiongbahru.market/</string>
+    <string name="tiong_bahru_market_location">30 Seng Poh Road, Singapore 168898</string>
+
+    <!-- Dummy data for ABC -->
+    <string name="abc_food_centre_phone">ABC Brickworks Food Centre</string>
+    <string name="abc_food_centre_website">http://danielfooddiary.com/2017/09/16/abcfoodcentre/</string>
+    <string name="abc_food_centre_location">6 Jalan Bukit Merah #01&#8211;21, Singapore 150006.</string>
+
+    <!-- Dummy data for Adam Road -->
+    <string name="adam_road_phone">2 Adam Rd, Singapore 289876</string>
+    <string name="adam_road_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d806626-Reviews-Adam_Road_Food_Centre-Singapore.html</string>
+    <string name="adam_road_location">2 Adam Rd, Singapore 289876</string>
+    <!-- The string values for "Foods in East" section -->
+
+    <string name="chomp_chomp_phone">+65 6222 2222</string>
+    <string name="chomp_chomp_website">https://www.misstamchiak.com/chomp-chomp/</string>
+    <string name="chomp_chomp_location">20 Kensington Park Road, Singapore 557269</string>
+
+    <string name="golden_mile_phone">+65 6225 5632</string>
+    <string name="golden_mile_website">https://sethlui.com/golden-mile-food-centre-food-guide-singapore/</string>
+    <string name="golden_mile_location">505 Beach Road, Singapore 199583</string>
+
+    <string name="bedok_marketplace_phone">+65 8228 4145</string>
+    <string name="bedok_marketplace_website">https://www.burpple.com/bedok-market-place</string>
+    <string name="bedok_marketplace_location">288A Bedok Rd, Singapore 469445</string>
+
+    <!-- String values for history fragment intent -->
+
+    <string name="battlebox_phone">+65 6338 6133</string>
+    <string name="battlebox_website">http://www.battlebox.com.sg/</string>
+    <string name="battlebox_location">2 Cox Terrace, Singapore 179622</string>
+
+    <string name="east_coast_phone">+65 6214 2451</string>
+    <string name="east_coast_website">https://www.changimuseum.sg/</string>
+    <string name="east_coast_location"> 1000, Upper Changi Road North, Singapore 507707</string>
+
+    <string name="northern_resilience_phone">+65 6339 2114</string>
+    <string name="northern_resilience_website">https://www.cwgc.org/find/find-cemeteries-and-memorials/2053500/singapore-memorial</string>
+    <string name="northern_resilience_location">9 Woodlands Road, Singapore 738656</string>
+
+    <string name="southern_resilience_phone">+65 6375 2510</string>
+    <string name="southern_resilience_website">https://www.nhb.gov.sg/what-we-do/our-work/preserve-our-stories-treasures-and-places/museums-and-institutions/reflections-at-bukit-chandu</string>
+    <string name="southern_resilience_location">31-K Pepys Road Singapore 118458</string>
+
+    <string name="temasek_phone">+65 6221 3804</string>
+    <string name="temasek_website">https://www.nparks.gov.sg/gardens-parks-and-nature/parks-and-nature-reserves/esplanade-park</string>
+    <string name="temasek_location">Esplanade Park, Connaught Drive, Singapore</string>
+
+    <string name="bukit_chandu_phone">+65 6221 3804</string>
+    <string name="bukit_chandu_website">https://www.nhb.gov.sg/what-we-do/our-work/preserve-our-stories-treasures-and-places/museums-and-institutions/reflections-at-bukit-chandu</string>
+    <string name="bukit_chandu_location">31-K Pepys Road, Singapore 118458</string>
+
+    <!-- String values for culture fragment intent -->
+
+    <string name="fengshui_phone">+65 6735 1221</string>
+    <string name="fengshui_website">https://lionraw.com/2014/03/18/the-hakka-cemetery/</string>
+    <string name="fengshui_location">9 Commonwealth Lane Singapore 149551 Commonwealth Ln, Singapore 149551</string>
+
+    <string name="sultan_of_spice_phone">+65 6325 1631</string>
+    <string name="sultan_of_spice_website">http://sultanmosque.sg/contact-us/visitor-information</string>
+    <string name="sultan_of_spice_location">3 Muscat Street, Singapore 198833</string>
+
+    <string name="india_phone">+65 6295 5998</string>
+    <string name="india_website">http://littleindiaarcade.com.sg/</string>
+    <string name="india_location">48 Serangoon Road #02&#8211;07 Singapore 217959</string>
+
+    <string name="chinese_phone">+65 6224 3928</string>
+    <string name="chinese_website">https://chinatownheritagecentre.com.sg/</string>
+    <string name="chinese_location">48 Pagoda Street, Singapore 059207</string>
+
+    <string name="religion_phone">+65 6339 2114</string>
+    <string name="religion_website">http://eresources.nlb.gov.sg/infopedia/articles/SIP_275_2005-01-03.html</string>
+    <string name="religion_location">178 Waterloo St, Singapore 187964</string>
+
+    <!-- The string values for "Arts" section -->
+
+    <string name="tiong_bahru_website">https://yipyc.com/blog/2016/11/11/bird-singing-corner/</string>
+    <string name="tiong_bahru_location">71 Seng Poh Lane, Singapore 160071</string>
+
+    <string name="chinatown_website">https://thehoneycombers.com/singapore/keong-saik-revival/</string>
+    <string name="chinatown_location">1 Keong Saik Rd, 089109</string>
+
+    <string name="little_india_website">https://sg.asia-city.com/city-living/news/6-instagrammable-murals-little-india-and-where-find-them</string>
+    <string name="little_india_location">Carpark. 11 Hindoo Road, Singapore 209110.</string>
+
+    <string name="macpherson_website">http://www.socialcreatives.com/</string>
+    <string name="macpherson_location">Void deck of Block 56 Pipit Road, Singapore 370056.</string>
+
+    <string name="haji_lane_website">https://a-list.sg/profile-artist-didier-jaba-mathieu/</string>
+    <string name="haji_lane_location">Blu Jaz Café. 11 Bali Lane, Singapore 189848.</string>
+
+    <string name="everton_website">https://yipyc.com/blog/2016/11/11/barber/</string>
+    <string name="everton_location">39 Everton Road, Singapore 089392</string>
+
+    <!-- String for menu detail -->
+    <string name="menu_call">Call</string>
+    <string name="menu_website">Website</string>
+    <string name="menu_location">Location</string>
+
 </resources>
