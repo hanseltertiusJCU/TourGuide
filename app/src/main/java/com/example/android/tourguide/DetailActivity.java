@@ -105,9 +105,6 @@ public class DetailActivity extends AppCompatActivity {
 
             @Override
             public void onPageSelected(int position) {
-                // To know the position of Fragment in FragmentPagerAdapter that resides in ViewPager
-                Toast.makeText(DetailActivity.this,
-                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
                 setActionBarTitle(position);
             }
 

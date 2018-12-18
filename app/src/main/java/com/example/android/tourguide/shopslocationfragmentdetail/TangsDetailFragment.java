@@ -1,5 +1,7 @@
 package com.example.android.tourguide.shopslocationfragmentdetail;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
@@ -8,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.example.android.tourguide.DetailActivity;
@@ -43,6 +46,43 @@ public class TangsDetailFragment extends Fragment {
 
         // Set the content of listView to contain the LocationAdapter object
         listView.setAdapter(adapter);
+
+        LinearLayout phoneButton = (LinearLayout) rootView.findViewById(R.id.phoneButton);
+
+        // Prompt into phone app and specify the phone number before doing a phone call
+        phoneButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + getString(R.string.tangs_phone)));
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout websiteButton = (LinearLayout) rootView.findViewById(R.id.websiteButton);
+
+        // Prompt into official website (if available) or the website that specify the respective
+        // location
+        websiteButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(getString(R.string.tangs_website)));
+                startActivity(i);
+            }
+        });
+
+        LinearLayout locationButton = (LinearLayout) rootView.findViewById(R.id.locationButton);
+
+        // Prompt into Google Map and display the location based on the respective String value
+        locationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + getString(R.string.tangs_location));
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
+            }
+        });
 
         return rootView;
     }

@@ -549,7 +549,7 @@ Daily 8.30am-10.30pm.</string>
 
     <string name="shilla_phone">+65 6713 5700</string>
     <string name="shilla_website">http://sg.shilladutyfree.com/en/</string>
-    <string name="shilla_location">80 Airport Boulevard, #03&#8211;108, Changi Airport Terminal 1, SINGAPORE 819642</string>
+    <string name="shilla_location">80 Airport Boulevard, Changi Airport Terminal 1, SINGAPORE 819642</string>
 
     <string name="gassan_phone">+65 6214 9470</string>
     <string name="gassan_website">https://www.gassan.com/en/gassan-rolex-boutique-singapore</string>
@@ -567,7 +567,7 @@ Daily 8.30am-10.30pm.</string>
 
     <string name="dfs_wines_harbourfront_phone">+65 6271 3861</string>
     <string name="dfs_wines_harbourfront_website">https://www.dfs.com/en/singapore/stores/dfs-singapore-cruise-centre-harbourfront</string>
-    <string name="dfs_wines_harbourfront_location">Singapore Cruise Centre, Harbourfront Centre, 1 Maritime Square #01&#8211;17/20, Singapore 099253</string>
+    <string name="dfs_wines_harbourfront_location">Singapore Cruise Centre, Harbourfront Centre, Singapore 099253</string>
 
     <!-- The string values for "Shop at the heart of the city" section -->
 
@@ -582,7 +582,7 @@ Daily 8.30am-10.30pm.</string>
     <!-- String values for dessert fragment intent -->
     <string name="chendol_phone">+65 8748 7590</string>
     <string name="chendol_website">https://www.thebestsingapore.com/best-place/chinatown-complex-food-centre/</string>
-    <string name="chendol_location">335 Smith Street #02&#8211;008, Singapore 050335. </string>
+    <string name="chendol_location">335 Smith Street, Singapore 050335. </string>
 
     <string name="tau_huay_phone">+65 6745 5682</string>
     <string name="tau_huay_website">https://www.burpple.com/fZw8TQW3</string>
@@ -590,12 +590,10 @@ Daily 8.30am-10.30pm.</string>
 
     <string name="pulut_hitam_phone">+65 6733 2225</string>
     <string name="pulut_hitam_website">http://www.singapore-guide.com/food-dining/tekka-centre.htm</string>
-    <string name="pulut_hitam_location">665 Buffalo Road #01&#8211;221, Singapore 210665. </string>
+    <string name="pulut_hitam_location">665 Buffalo Road, Singapore 210665. </string>
 
-    <!-- Need to make dummy data for ABC Food Centre phone -->
-    <string name="ice_kachang_phone">Ice Kachang</string>
     <string name="ice_kachang_website">http://danielfooddiary.com/2017/09/16/abcfoodcentre/</string>
-    <string name="ice_kachang_location">6 Jalan Bukit Merah #01&#8211;21, Singapore 150006.</string>
+    <string name="ice_kachang_location">6 Jalan Bukit Merah, Singapore 150006.</string>
 
     <string name="gulab_jamun_phone">+65 6293 8682</string>
     <string name="gulab_jamun_website">http://www.thebananaleafapolo.com/</string>
@@ -603,7 +601,7 @@ Daily 8.30am-10.30pm.</string>
 
     <string name="cheng_teng_phone">+65 8157 1905</string>
     <string name="cheng_teng_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d804587-Reviews-Newton_Food_Centre-Singapore.html</string>
-    <string name="cheng_teng_location">500 Clemenceau Avenue North #01&#8211;05, Singapore 229495</string>
+    <string name="cheng_teng_location">500 Clemenceau Avenue North, Singapore 229495</string>
 
     <string name="bubur_chacha_phone">+65 6377 2829</string>
     <string name="bubur_chacha_website">http://peramakan.com/</string>
@@ -625,8 +623,6 @@ Daily 8.30am-10.30pm.</string>
     <string name="lau_pa_sat_website">http://www.laupasat.biz/</string>
     <string name="lau_pa_sat_locaton">Lau Pa Sat. 18 Raffles Quay, Singapore 048582</string>
 
-    <!-- Need dummy data for tekka centre phone -->
-    <string name="tekka_phone">Tekka Centre</string>
     <string name="tekka_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d1146922-Reviews-Tekka_Centre-Singapore.html</string>
     <string name="tekka_location">60 Bukit Timah Road, Singapore 229900</string>
     <!-- The string values for "Foods in West" section -->
@@ -635,13 +631,9 @@ Daily 8.30am-10.30pm.</string>
     <string name="tiong_bahru_market_website">http://tiongbahru.market/</string>
     <string name="tiong_bahru_market_location">30 Seng Poh Road, Singapore 168898</string>
 
-    <!-- Dummy data for ABC -->
-    <string name="abc_food_centre_phone">ABC Brickworks Food Centre</string>
     <string name="abc_food_centre_website">http://danielfooddiary.com/2017/09/16/abcfoodcentre/</string>
-    <string name="abc_food_centre_location">6 Jalan Bukit Merah #01&#8211;21, Singapore 150006.</string>
+    <string name="abc_food_centre_location">6 Jalan Bukit Merah, Singapore 150006.</string>
 
-    <!-- Dummy data for Adam Road -->
-    <string name="adam_road_phone">2 Adam Rd, Singapore 289876</string>
     <string name="adam_road_website">https://www.tripadvisor.com/Restaurant_Review-g294265-d806626-Reviews-Adam_Road_Food_Centre-Singapore.html</string>
     <string name="adam_road_location">2 Adam Rd, Singapore 289876</string>
     <!-- The string values for "Foods in East" section -->
@@ -696,7 +688,7 @@ Daily 8.30am-10.30pm.</string>
 
     <string name="india_phone">+65 6295 5998</string>
     <string name="india_website">http://littleindiaarcade.com.sg/</string>
-    <string name="india_location">48 Serangoon Road #02&#8211;07 Singapore 217959</string>
+    <string name="india_location">48 Serangoon Road, Singapore 217959</string>
 
     <string name="chinese_phone">+65 6224 3928</string>
     <string name="chinese_website">https://chinatownheritagecentre.com.sg/</string>
@@ -706,7 +698,7 @@ Daily 8.30am-10.30pm.</string>
     <string name="religion_website">http://eresources.nlb.gov.sg/infopedia/articles/SIP_275_2005-01-03.html</string>
     <string name="religion_location">178 Waterloo St, Singapore 187964</string>
 
-    <!-- The string values for "Arts" section -->
+    <!-- String values for art fragment intent -->
 
     <string name="tiong_bahru_website">https://yipyc.com/blog/2016/11/11/bird-singing-corner/</string>
     <string name="tiong_bahru_location">71 Seng Poh Lane, Singapore 160071</string>
